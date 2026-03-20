@@ -1,0 +1,22 @@
+﻿# 가상환경 (라이브러리 목록은 requirements.txt로 대체)
+venv/
+
+# 파이썬 캐시
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# 데이터 파일
+*.csv
+*.xlsx
+*.xls
+data_info.txt
+
+# 운영체제 파일
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code 설정
+.vscode/
