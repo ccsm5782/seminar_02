@@ -1,4 +1,4 @@
-﻿# 가상환경 (라이브러리 목록은 requirements.txt로 대체)
+# 가상환경 (라이브러리 목록은 requirements.txt로 대체)
 venv/
 
 # 파이썬 캐시
@@ -7,8 +7,9 @@ __pycache__/
 *.pyo
 .ipynb_checkpoints/
 
-# 데이터 파일
+# 데이터 파일 및 업로드 허용 범위
 *.csv
+!american_bankruptcy.csv
 *.xlsx
 *.xls
 data_info.txt
