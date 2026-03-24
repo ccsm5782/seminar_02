@@ -62,3 +62,10 @@
 ---
 **Reference**: 김종윤(2019). "중소협력업체 신용평가모델 개발 및 검증에 관한 연구"  
 **Created By**: Antigravity (Advanced AI Coding Assistant)
+
+
+
+
+
+# 수정할 것
+Nonfinancial 과정이 약간 다르게 진행되었음. 빠진 작업이 있나 확인해봐야 함. 
