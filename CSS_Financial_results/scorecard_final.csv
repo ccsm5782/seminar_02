@@ -1,0 +1,45 @@
+﻿변수설명,변수명,구간,배점,부도율(%),구성비(%)
+EBIT의 5년 최솟값,X12_min5,0,0,18.83,15.0
+EBIT의 5년 최솟값,X12_min5,1,24,13.03,20.0
+EBIT의 5년 최솟값,X12_min5,2,57,7.8,20.0
+EBIT의 5년 최솟값,X12_min5,3,49,4.14,20.0
+EBIT의 5년 최솟값,X12_min5,4,64,2.92,20.0
+EBIT의 5년 최솟값,X12_min5,5,85,1.46,5.02
+유동자산 (Current Assets) - 유동부채 (Total,X1_minus_X14,0,0,20.38,5.0
+유동자산 (Current Assets) - 유동부채 (Total,X1_minus_X14,1,9,16.24,5.0
+유동자산 (Current Assets) - 유동부채 (Total,X1_minus_X14,2,32,11.46,10.0
+유동자산 (Current Assets) - 유동부채 (Total,X1_minus_X14,3,35,5.24,64.99
+유동자산 (Current Assets) - 유동부채 (Total,X1_minus_X14,4,77,2.23,15.0
+유동자산 (Current Assets) / 총부채 (Total ,X1_div_X17,0,0,11.24,35.01
+유동자산 (Current Assets) / 총부채 (Total ,X1_div_X17,1,11,6.28,34.99
+유동자산 (Current Assets) / 총부채 (Total ,X1_div_X17,2,41,1.96,30.0
+시가총액 (Market Value) / 총영업비용 (Total ,X8_div_X18,0,11,19.27,10.0
+시가총액 (Market Value) / 총영업비용 (Total ,X8_div_X18,1,0,15.45,10.0
+시가총액 (Market Value) / 총영업비용 (Total ,X8_div_X18,2,27,10.35,10.0
+시가총액 (Market Value) / 총영업비용 (Total ,X8_div_X18,3,50,6.05,10.0
+시가총액 (Market Value) / 총영업비용 (Total ,X8_div_X18,4,85,2.93,49.99
+시가총액 (Market Value) / 총영업비용 (Total ,X8_div_X18,5,125,1.43,10.0
+당기순이익 (Net Income)의 2년 절대변화량,X6_diff2,0,0,14.1,20.0
+당기순이익 (Net Income)의 2년 절대변화량,X6_diff2,1,4,8.78,25.0
+당기순이익 (Net Income)의 2년 절대변화량,X6_diff2,2,29,5.02,55.0
+매출총이익 (Gross Profit) / 장기부채 (Total ,X13_div_X11,0,0,11.85,30.0
+매출총이익 (Gross Profit) / 장기부채 (Total ,X13_div_X11,1,27,5.31,70.0
+총부채 (Total Liabilities) / 총자산 (Tota,X17_div_X10,0,0,15.29,25.0
+총부채 (Total Liabilities) / 총자산 (Tota,X17_div_X10,1,21,3.86,75.0
+총영업비용 (Total Operating Expenses)의 3,X18_pct3,0,0,16.59,5.01
+총영업비용 (Total Operating Expenses)의 3,X18_pct3,1,45,7.66,94.99
+듀퐁: 부채비율 × 순이익률,combo_dupont_lev_margin,0,0,12.14,40.01
+듀퐁: 부채비율 × 순이익률,combo_dupont_lev_margin,1,33,3.11,59.99
+재고자산 (Inventory) / EBIT,X5_div_X12,0,0,16.56,5.0
+재고자산 (Inventory) / EBIT,X5_div_X12,1,26,13.06,20.0
+재고자산 (Inventory) / EBIT,X5_div_X12,2,40,4.37,75.0
+총매출액 (Total Revenue) - 총부채 (Total L,X16_minus_X17,0,0,12.95,15.0
+총매출액 (Total Revenue) - 총부채 (Total L,X16_minus_X17,1,36,5.62,85.0
+총자산 (Total Assets) / 총영업비용 (Total O,X10_div_X18,0,0,10.19,30.0
+총자산 (Total Assets) / 총영업비용 (Total O,X10_div_X18,1,21,5.23,70.0
+재고자산 (Inventory)의 현재값/5년이동평균,X5_ratio_ma5,0,0,9.36,89.99
+재고자산 (Inventory)의 현재값/5년이동평균,X5_ratio_ma5,1,24,4.79,10.01
+시가총액 (Market Value)의 3년 변화율,X8_pct3,0,11,23.14,10.01
+시가총액 (Market Value)의 3년 변화율,X8_pct3,1,0,18.16,9.99
+시가총액 (Market Value)의 3년 변화율,X8_pct3,2,4,13.1,5.01
+시가총액 (Market Value)의 3년 변화율,X8_pct3,3,27,4.43,74.99

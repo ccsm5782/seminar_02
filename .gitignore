@@ -9,9 +9,14 @@ __pycache__/
 
 # 데이터 파일 및 업로드 허용 범위
 *.csv
+!*_results/*.csv
 !american_bankruptcy.csv
 *.xlsx
+!*_results/*.xlsx
 *.xls
+!*_results/*.xls
+*.png
+!*_results/*.png
 data_info.txt
 
 # 운영체제 파일

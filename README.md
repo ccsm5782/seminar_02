@@ -1,96 +1,64 @@
-# 📉 American Companies Bankruptcy Prediction (기업 신용평가모형)
+# 🛡️ Two-Tier Master Credit Scoring System (70:30)
 
-## 📌 프로젝트 목적 (Project Objective)
-본 프로젝트는 **미국 상장기업의 재무 데이터(1999~2018)**를 활용하여, 대상 기업의 **부도(Bankruptcy) 가능성을 평가/예측하는 신용평가 파이프라인(CSS, Credit Scoring System)**을 구축하는 것을 목적으로 합니다. 
-실제 신용평가사(NICE디앤비 등)의 평가모형 개발 절차와 논문(「김종윤, 2019」)의 핵심 방법론을 직접 구현하여, 단순 재무 수치가 아닌 시계열적 구조재무비율(성장성, 수익성, 안정성, 활동성 등)의 변화 방향과 속도를 측정합니다.
+본 프로젝트는 상장 기업의 부도 예측력을 극대화하기 위해 **내부 재무지표(70%)**와 **외부 비재무 지표(30%)**를 결합한 이원화된 신용평가 모델 시스템입니다. 국내 신용평가사의 방법론(NICE 등)과 학술적 가이드라인(김종윤, 2019)을 엄격히 준수하여 설계되었습니다.
 
 ---
 
-## 📊 데이터셋 개요 및 기본 구조 (Data Overview & Structure)
-데이터는 패널(Panel) 형식의 다년간 시계열 구조로 이루어져 있으며, 특정 기업이 매년 관측되다 상장폐지/부도 등이 발생하면 타깃 값이 `failed`로 기록되는 구조입니다.
+## 🏗️ 1. 프로젝트 아키텍처 및 철학
 
-- **출처 (Kaggle)**: [American Companies Bankruptcy Prediction](https://www.kaggle.com/datasets/utkarshx27/american-companies-bankruptcy-prediction-dataset)
-- **데이터 기간**: 1999년 ~ 2018년 (기업당 관측 연도 평균 8.8년)
-- **규모**: 8,971개 기업 (총 78,682 관측치/행)
-- **타깃 변수 (`Target`)**:  
-  - `failed (1)`: 기업 부도 및 불량 상태 발생 (총 609개 기업)
-  - `alive (0)`: 정상 우량 상태 관측 (총 8,362개 기업)
-  - *전체 기업 단위 기준 부도율*: **6.79%**
-- **18개 핵심 원본 재무 변수 (X1 ~ X18)**:
-  유동자산(X1), 매출원가(X2), 감가상각(X3), EBITDA(X4), 재고자산(X5), 당기순이익(X6), 매출채권(X7), 시가총액(X8), 순매출액(X9), 총자산(X10), 장기부채(X11), EBIT(X12), 매출총이익(X13), 유동부채(X14), 이익잉여금(X15), 총매출액(X16), 총부채(X17), 총영업비용(X18).
+이 시스템은 두 개의 개별 모델이 독립적으로 작동한 뒤, 최종 단계에서 가중 결합되는 **Ensemble 모델** 방식입니다.
+*   **Financial Model (70%)**: 기업의 장부상 실적(수수성, 활동성, 안정성 등)을 896개의 비율로 분석.
+*   **Non-Financial Model (30%)**: 시장 내 상대적 위상(Market Position) 및 자본 조달력(Funding Power)을 139개의 대용 지표(Proxy)로 분석.
+*   **Twin Modeling**: 두 모델은 서로 다른 데이터 소스를 사용하지만, 통계적 처리 공정(DNA)은 100% 동일하게 설계되어 결합 시 왜곡이 없습니다.
 
 ---
 
-## ⚙️ 분석 파이프라인 및 방법론 (Methodology)
+## 📈 2. 단계별 상세 공정 (Sequential Workflow)
 
-### 1. 기업 단위 랜덤 데이터 분할 (Data Splitting)
-데이터의 시계열적 겹침(Data Leakage)을 방지하기 위해 동일 기업의 모든 연도 데이터가 항상 같은 세트에 묶이도록 **기업 단위(Company-level) 분할**을 적용했습니다.
-- **Train (70%)**: 주요 평가 변수 선택 및 평가모형(로지스틱 회귀 등) 학습
-- **Hold-Out (15%)**: 모형의 중간 검증, 하이퍼파라미터 튜닝
-- **OOT (15%, Out-of-Time)**: 모형 변별력 및 모집단 안정성(PSI) 최종 검증
+### [Phase 1] Financial Model (`CSS_Financial.ipynb`)
+재무 비율 기반의 내부 건전성 측정 모델 개발 과정입니다.
 
-### 2. 고도화된 파생변수 생성 (Advanced Feature Engineering)
-신용평가에서 재무 제표의 단순 절댓값 수치는 기업 간 규모(Scale) 차이 때문에 특성을 파악하기 어렵고 부도 예측력이 낮습니다.  
-따라서 원본 18개 변수를 결합 및 시계열 변환하여 **기업의 성장성, 안정성, 수익성, 활동성, 현금흐름**을 대변하는 **총 896개의 평가 파생변수(Feature)**를 자동 생성했습니다.
+1.  **Candidate Generation (Cell 1-4)**: 20여 개의 기초 재무제표 항목으로부터 896개의 재무 비율 및 시계열 변화량 생성.
+2.  **Sample Sync (Cell 5)**: `Fixed Seed=42`를 사용하여 Train(70%), Hold-out(15%), OOT(15%) 데이터 분할. 분석 단위는 기업당 '최근 1개년' 데이터로 동기화.
+3.  **Fine Classing (Cell 6)**: 모든 변수를 20개 구간으로 균등 분할. KS 통계량 10% 미만의 변별력 없는 변수 1차 탈락.
+4.  **Coarse Classing (Cell 7)**: 인접 구간 간 부도율 역전 현상 발생 시 반복 병합. **최소 비중 5%** 및 **단조성(Monotonicity)** 확보 (김종윤, 2019, p.64).
+5.  **Recoding (Cell 8)**: 구간별 부도율 순서에 따라 0(고위험) ~ N(저위험) 정화 수치 부여.
+6.  **Univariate Filter (Cell 9)**: WOE/IV 산출 및 단변량 로지스틱 회귀. 유의수준 0.05 미만 및 모든 계수가 양수(+)인 변수 선별.
+7.  **Multi-Collinearity Audit (Cell 10-11)**: 상관계수 0.6 초과 쌍 중 IV 낮은 쪽 제거 및 **VIF 5 이상** 변수 축출.
+8.  **Stepwise Selection (Cell 12)**: AIC(Akaike Information Criterion) 최소화 기준 전진/후진 선택법으로 최종 14개 변수 확정.
+9.  **Scorecard & Validation (Cell 13-15)**: **Zero-Anchoring** 방식의 스코어카드 산출 및 KS, AR, PSI를 통한 모델 성능/안정성 검증.
 
-#### 2-1. 시계열 파생변수 (총 396개 = 18변수 × 22종 변환)
+### [Phase 2] Non-Financial Model (`CSS_NonFinancial.ipynb`)
+시장 지배력 및 자산 조달력 기반의 외부 지표 모델 개발 과정입니다.
 
-18개 원본 변수 각각에 대해, **기업별로 연도 순서대로 정렬(`sort_values`)하고 그룹화(`groupby`)한 뒤**, 아래 22가지 시계열 변환을 독립적으로 적용합니다. 즉 B 기업의 데이터가 A 기업 계산에 절대 섞이지 않습니다.
-
-| 구분 | suffix | 계산 방법 | 역할 |
-|---|---|---|---|
-| 변화율 (성장성) | `_pct1`, `_pct2`, `_pct3` | `pct_change(1/2/3)` | 전년/2년/3년 대비 성장률 |
-| 절대 변화량 | `_diff1`, `_diff2` | `diff(1/2)` | 전년/2년 대비 금액 증감 |
-| 이동평균 (추세) | `_ma3`, `_ma5` | `rolling(3/5).mean()` | 3·5년 평균 수준 추세 |
-| 변동성 (불안정성) | `_std3`, `_std5` | `rolling(3/5).std()` | 수익성 흔들림 정도 |
-| 구간 극값 | `_min3/5`, `_max3/5` | `rolling().min/max()` | 최근 3·5년 최저·최고 수준 |
-| **가속도** | `_acc` | `diff(1) - diff(1).shift(1)` | 악화 속도 가속 여부 |
-| 이동평균 대비 | `_ratio_ma3`, `_ratio_ma5` | `현재값 / ma` | 평균 대비 현재 위치 |
-| 연속 하락/상승 | `_down3`, `_down5`, `_up3` | 조건 연속 충족 시 `1` | 추세 지속 부실 신호 |
-| Lag (과거참조) | `_lag1`, `_lag2`, `_lag3` | `shift(1/2/3)` | 1·2·3년 전 값 직접 참조 |
-
-> ⚠️ 관측 연도가 3년 미만인 기업의 경우, 해당 구간의 rolling 파생변수는 강제 `NaN`으로 처리됩니다 (`min_periods` 설정).
-
-**예시: Company A의 X6(당기순이익) 기준 시계열 파생변수**
-
-| year | X6 | X6_lag1 | X6_pct1 | X6_diff1 | X6_ma3 | X6_acc | X6_down3 |
-|---:|---:|---:|---:|---:|---:|---:|---:|
-| 2005 | 100 | NaN | NaN | NaN | NaN | NaN | NaN |
-| 2006 | 90 | 100 | -10.0% | -10 | NaN | NaN | NaN |
-| 2007 | 70 | 90 | -22.2% | -20 | 86.7 | -10 | **1** |
-| 2008 | 60 | 70 | -14.3% | -10 | 73.3 | +10 | **1** |
-| 2009 | 80 | 60 | +33.3% | +20 | 70.0 | +30 | **0** |
-
-> `_acc`(가속도) = 이번 변화량 − 전년 변화량 (음수일수록 최근에 더 급격히 악화)  
-> 이처럼 **"현재 수준"이 아닌 "방향과 속도"** 정보가 부도 예측의 핵심 신호가 됩니다.
-
-최종적으로 모든 기업의 **마지막 관측 연도 1행**만 추출(78,682행 → 8,971행)하여 모형에 입력합니다. 이 한 행 안에 과거 수년간의 흐름 정보가 파생변수 형태로 이미 압축되어 있습니다.
-
-#### 2-2. 2개 변수 조합 비율 (총 459개)
-- **나누기 (306개)**: `X_a / X_b` — `A/B`와 `B/A`는 재무적 의미가 다르므로 순서 있는 전체 경우의 수 적용 (18×17=306)
-- **빼기 (153개)**: `X_a - X_b` — `A-B`와 `B-A`는 부호만 반대라 중복 제거하여 조합만 사용 (18×17/2=153)
-
-#### 2-3. 3개 변수 수동 정의 (총 23개)
-- **Altman Z-Score 구성요소 (5개)**: 순운전자본/총자산, 이익잉여금/총자산, 시가총액/총부채 등
-- **듀퐁 분석 기반 (4개)**: 비율×비율 구조만 허용 (예: `ROA × 자산회전율`)
-- **핵심 재무비율 (14개)**: 현금창출력, 부채상환능력, 운전자본회전율 등
-
-### 3. 검증 및 모델링 최적화 진행 단계 (Optimization & Validation)
-- 파생변수 생성 과정에서 필연적으로 발생하는 `초기 관측치 결측값(Lag/Rolling 구간)`과 `0 나누기 결과(NaN)`에 대해, 향후 최적 구간 분류(Fine Classing) 시 별도 속성군으로 편성하여 처리할 계획입니다.
-- 단일변수의 우량/불량 빈도를 수치화하는 Weight of Evidence (WoE) 변환을 적용합니다.
-- `PSI (모집단 안정성 지수)` 및 `ROC AUC` 변별력을 바탕으로 최종 평점(Score) 신용 평가를 수행합니다.
+1.  **Proxy Generation (Cell 1)**: 절대 금액이 아닌 **순위(Rank), 백분위(Percentile), 격차(Gap)** 중심의 139개 비재무 대용 변수 생성.
+2.  **Mega-Audit (Cell 2)**: 재무 후보군(896종)과 비재무 후보군(139종) 간의 **글로벌 상관관계 Audit**. Corr > 0.8인 변수 전무함을 확인하여 통계적 독립성 입증.
+3.  **Twin-DNA Modeling (Cell 3-11)**: 재무 모델과 동일한 8단계 공정(Split → Fine → Coarse → Recoding → Filter → VIF → Stepwise) 수행.
+4.  **Variable Interpretation (Cell 10-Report)**: 선발된 12개 변수에 대해 '시장 신뢰도', '자본시장 위상', '경영 지속성' 등의 비재무적 질적 의미 부여 (논문 근거 강화).
+5.  **Non-Financial Scorecard (Cell 12-13)**: 비재무 전용 0~1000점 평점표 산출.
+6.  **Validation & Export (Cell 14-15)**: 비재무 모델 단독 성능 검증 및 재무 모델과 동일한 7개 파일 구성으로 **결과물 아카이빙(`.pkl`, `.csv`, `.json`)**.
 
 ---
 
-## 📁 디렉토리 구조 (Directory Structure)
-```text
-📦 tech_seminar_02
- ┣ 📂 data                 # Kaggle CSV 원본 데이터
- ┃ ┗ 📜 american_bankruptcy.csv
- ┣ 📂 references           # 모형 설계 핵심 참고 문헌 및 공시 논문
- ┃ ┣ 📜 기업신용등급체계 공시.pdf
- ┃ ┗ 📜 통신 빅데이터 활용 개인신용평가모형(통신스코어) 개발.pdf
- ┣ 📜 CSS.ipynb            # 전체 CSS 파이프라인 개발 및 데이터 탐색(EDA) 노트북
- ┣ 📜 requirements.txt     # 프로젝트 실행(pandas, numpy, scikit-learn 등) 환경 구축 목록
- ┗ 📜 README.md            # 구조 및 설명 가이드 (현재 문서)
-```
+## 📂 3. 결과물 저장 및 아카이빙 (Synchronized Results)
+
+두 모델의 결과물은 각각 독립된 폴더에 동일한 파일 이름으로 저장됩니다.
+
+*   `CSS_Financial_results/` & `CSS_NonFinancial_results/`
+    *   `feature_dictionary.csv`: 전체 후보 변수 (896 / 139) 명단
+    *   `final_vars.json`: 최종 선발 변수 리스트
+    *   `final_logit_model.pkl`: 학습 완료된 모델 직렬화 파일
+    *   `model_params.json`: 상수항 및 스케일링(Factor, Offset) 파라미터
+    *   `scorecard_final.csv`: 구간별 배점이 명시된 최종 평점표
+    *   `validation_charts.png`: KS, AR, PSI, ROC/CAP 커브 시각화 리포트
+
+---
+
+## 🔬 4. 주요 방법론 특이사항
+
+*   **Zero-Anchoring**: 각 변수의 가장 위험한 구간(Worst Bin)에 0점을 부여하고, 계수 차이만큼 가산점을 주는 방식. 이는 점수가 높을수록 우량함을 직관적으로 보여주며, 총점 관리가 용이함.
+*   **Sample Synchronization**: 두 모델이 같은 시점에 같은 기업을 평가하도록 `Last Observation` 로직을 동일하게 적용하여 통합 시의 데이터 오차 제거.
+
+---
+**Reference**: 김종윤(2019). "중소협력업체 신용평가모델 개발 및 검증에 관한 연구"  
+**Created By**: Antigravity (Advanced AI Coding Assistant)

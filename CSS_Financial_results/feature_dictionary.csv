@@ -1,0 +1,897 @@
+﻿변수명,원본변수,변환유형,설명
+X1,X1,원본값,유동자산 (Current Assets)
+X2,X2,원본값,매출원가 (Cost of Goods Sold)
+X3,X3,원본값,감가상각 (Depreciation & Amortization)
+X4,X4,원본값,EBITDA
+X5,X5,원본값,재고자산 (Inventory)
+X6,X6,원본값,당기순이익 (Net Income)
+X7,X7,원본값,매출채권 (Total Receivables)
+X8,X8,원본값,시가총액 (Market Value)
+X9,X9,원본값,순매출액 (Net Sales)
+X10,X10,원본값,총자산 (Total Assets)
+X11,X11,원본값,장기부채 (Total Long-term Debt)
+X12,X12,원본값,EBIT
+X13,X13,원본값,매출총이익 (Gross Profit)
+X14,X14,원본값,유동부채 (Total Current Liabilities)
+X15,X15,원본값,이익잉여금 (Retained Earnings)
+X16,X16,원본값,총매출액 (Total Revenue)
+X17,X17,원본값,총부채 (Total Liabilities)
+X18,X18,원본값,총영업비용 (Total Operating Expenses)
+X1_pct1,X1,전년대비 변화율,유동자산 (Current Assets)의 전년대비 변화율
+X1_pct2,X1,2년 변화율,유동자산 (Current Assets)의 2년 변화율
+X1_pct3,X1,3년 변화율,유동자산 (Current Assets)의 3년 변화율
+X1_diff1,X1,전년대비 절대변화량,유동자산 (Current Assets)의 전년대비 절대변화량
+X1_diff2,X1,2년 절대변화량,유동자산 (Current Assets)의 2년 절대변화량
+X1_ma3,X1,3년 이동평균,유동자산 (Current Assets)의 3년 이동평균
+X1_ma5,X1,5년 이동평균,유동자산 (Current Assets)의 5년 이동평균
+X1_std3,X1,3년 변동성(표준편차),유동자산 (Current Assets)의 3년 변동성(표준편차)
+X1_std5,X1,5년 변동성(표준편차),유동자산 (Current Assets)의 5년 변동성(표준편차)
+X1_min3,X1,3년 최솟값,유동자산 (Current Assets)의 3년 최솟값
+X1_max3,X1,3년 최댓값,유동자산 (Current Assets)의 3년 최댓값
+X1_min5,X1,5년 최솟값,유동자산 (Current Assets)의 5년 최솟값
+X1_max5,X1,5년 최댓값,유동자산 (Current Assets)의 5년 최댓값
+X1_acc,X1,가속도(변화율의 변화),유동자산 (Current Assets)의 가속도(변화율의 변화)
+X1_ratio_ma3,X1,현재값/3년이동평균,유동자산 (Current Assets)의 현재값/3년이동평균
+X1_ratio_ma5,X1,현재값/5년이동평균,유동자산 (Current Assets)의 현재값/5년이동평균
+X1_down3,X1,3년 연속 하락 여부(0/1),유동자산 (Current Assets)의 3년 연속 하락 여부(0/1)
+X1_down5,X1,5년 연속 하락 여부(0/1),유동자산 (Current Assets)의 5년 연속 하락 여부(0/1)
+X1_up3,X1,3년 연속 상승 여부(0/1),유동자산 (Current Assets)의 3년 연속 상승 여부(0/1)
+X1_lag1,X1,1년 전 값,유동자산 (Current Assets)의 1년 전 값
+X1_lag2,X1,2년 전 값,유동자산 (Current Assets)의 2년 전 값
+X1_lag3,X1,3년 전 값,유동자산 (Current Assets)의 3년 전 값
+X2_pct1,X2,전년대비 변화율,매출원가 (Cost of Goods Sold)의 전년대비 변화율
+X2_pct2,X2,2년 변화율,매출원가 (Cost of Goods Sold)의 2년 변화율
+X2_pct3,X2,3년 변화율,매출원가 (Cost of Goods Sold)의 3년 변화율
+X2_diff1,X2,전년대비 절대변화량,매출원가 (Cost of Goods Sold)의 전년대비 절대변화량
+X2_diff2,X2,2년 절대변화량,매출원가 (Cost of Goods Sold)의 2년 절대변화량
+X2_ma3,X2,3년 이동평균,매출원가 (Cost of Goods Sold)의 3년 이동평균
+X2_ma5,X2,5년 이동평균,매출원가 (Cost of Goods Sold)의 5년 이동평균
+X2_std3,X2,3년 변동성(표준편차),매출원가 (Cost of Goods Sold)의 3년 변동성(표준편차)
+X2_std5,X2,5년 변동성(표준편차),매출원가 (Cost of Goods Sold)의 5년 변동성(표준편차)
+X2_min3,X2,3년 최솟값,매출원가 (Cost of Goods Sold)의 3년 최솟값
+X2_max3,X2,3년 최댓값,매출원가 (Cost of Goods Sold)의 3년 최댓값
+X2_min5,X2,5년 최솟값,매출원가 (Cost of Goods Sold)의 5년 최솟값
+X2_max5,X2,5년 최댓값,매출원가 (Cost of Goods Sold)의 5년 최댓값
+X2_acc,X2,가속도(변화율의 변화),매출원가 (Cost of Goods Sold)의 가속도(변화율의 변화)
+X2_ratio_ma3,X2,현재값/3년이동평균,매출원가 (Cost of Goods Sold)의 현재값/3년이동평균
+X2_ratio_ma5,X2,현재값/5년이동평균,매출원가 (Cost of Goods Sold)의 현재값/5년이동평균
+X2_down3,X2,3년 연속 하락 여부(0/1),매출원가 (Cost of Goods Sold)의 3년 연속 하락 여부(0/1)
+X2_down5,X2,5년 연속 하락 여부(0/1),매출원가 (Cost of Goods Sold)의 5년 연속 하락 여부(0/1)
+X2_up3,X2,3년 연속 상승 여부(0/1),매출원가 (Cost of Goods Sold)의 3년 연속 상승 여부(0/1)
+X2_lag1,X2,1년 전 값,매출원가 (Cost of Goods Sold)의 1년 전 값
+X2_lag2,X2,2년 전 값,매출원가 (Cost of Goods Sold)의 2년 전 값
+X2_lag3,X2,3년 전 값,매출원가 (Cost of Goods Sold)의 3년 전 값
+X3_pct1,X3,전년대비 변화율,감가상각 (Depreciation & Amortization)의 전년대비 변화율
+X3_pct2,X3,2년 변화율,감가상각 (Depreciation & Amortization)의 2년 변화율
+X3_pct3,X3,3년 변화율,감가상각 (Depreciation & Amortization)의 3년 변화율
+X3_diff1,X3,전년대비 절대변화량,감가상각 (Depreciation & Amortization)의 전년대비 절대변화량
+X3_diff2,X3,2년 절대변화량,감가상각 (Depreciation & Amortization)의 2년 절대변화량
+X3_ma3,X3,3년 이동평균,감가상각 (Depreciation & Amortization)의 3년 이동평균
+X3_ma5,X3,5년 이동평균,감가상각 (Depreciation & Amortization)의 5년 이동평균
+X3_std3,X3,3년 변동성(표준편차),감가상각 (Depreciation & Amortization)의 3년 변동성(표준편차)
+X3_std5,X3,5년 변동성(표준편차),감가상각 (Depreciation & Amortization)의 5년 변동성(표준편차)
+X3_min3,X3,3년 최솟값,감가상각 (Depreciation & Amortization)의 3년 최솟값
+X3_max3,X3,3년 최댓값,감가상각 (Depreciation & Amortization)의 3년 최댓값
+X3_min5,X3,5년 최솟값,감가상각 (Depreciation & Amortization)의 5년 최솟값
+X3_max5,X3,5년 최댓값,감가상각 (Depreciation & Amortization)의 5년 최댓값
+X3_acc,X3,가속도(변화율의 변화),감가상각 (Depreciation & Amortization)의 가속도(변화율의 변화)
+X3_ratio_ma3,X3,현재값/3년이동평균,감가상각 (Depreciation & Amortization)의 현재값/3년이동평균
+X3_ratio_ma5,X3,현재값/5년이동평균,감가상각 (Depreciation & Amortization)의 현재값/5년이동평균
+X3_down3,X3,3년 연속 하락 여부(0/1),감가상각 (Depreciation & Amortization)의 3년 연속 하락 여부(0/1)
+X3_down5,X3,5년 연속 하락 여부(0/1),감가상각 (Depreciation & Amortization)의 5년 연속 하락 여부(0/1)
+X3_up3,X3,3년 연속 상승 여부(0/1),감가상각 (Depreciation & Amortization)의 3년 연속 상승 여부(0/1)
+X3_lag1,X3,1년 전 값,감가상각 (Depreciation & Amortization)의 1년 전 값
+X3_lag2,X3,2년 전 값,감가상각 (Depreciation & Amortization)의 2년 전 값
+X3_lag3,X3,3년 전 값,감가상각 (Depreciation & Amortization)의 3년 전 값
+X4_pct1,X4,전년대비 변화율,EBITDA의 전년대비 변화율
+X4_pct2,X4,2년 변화율,EBITDA의 2년 변화율
+X4_pct3,X4,3년 변화율,EBITDA의 3년 변화율
+X4_diff1,X4,전년대비 절대변화량,EBITDA의 전년대비 절대변화량
+X4_diff2,X4,2년 절대변화량,EBITDA의 2년 절대변화량
+X4_ma3,X4,3년 이동평균,EBITDA의 3년 이동평균
+X4_ma5,X4,5년 이동평균,EBITDA의 5년 이동평균
+X4_std3,X4,3년 변동성(표준편차),EBITDA의 3년 변동성(표준편차)
+X4_std5,X4,5년 변동성(표준편차),EBITDA의 5년 변동성(표준편차)
+X4_min3,X4,3년 최솟값,EBITDA의 3년 최솟값
+X4_max3,X4,3년 최댓값,EBITDA의 3년 최댓값
+X4_min5,X4,5년 최솟값,EBITDA의 5년 최솟값
+X4_max5,X4,5년 최댓값,EBITDA의 5년 최댓값
+X4_acc,X4,가속도(변화율의 변화),EBITDA의 가속도(변화율의 변화)
+X4_ratio_ma3,X4,현재값/3년이동평균,EBITDA의 현재값/3년이동평균
+X4_ratio_ma5,X4,현재값/5년이동평균,EBITDA의 현재값/5년이동평균
+X4_down3,X4,3년 연속 하락 여부(0/1),EBITDA의 3년 연속 하락 여부(0/1)
+X4_down5,X4,5년 연속 하락 여부(0/1),EBITDA의 5년 연속 하락 여부(0/1)
+X4_up3,X4,3년 연속 상승 여부(0/1),EBITDA의 3년 연속 상승 여부(0/1)
+X4_lag1,X4,1년 전 값,EBITDA의 1년 전 값
+X4_lag2,X4,2년 전 값,EBITDA의 2년 전 값
+X4_lag3,X4,3년 전 값,EBITDA의 3년 전 값
+X5_pct1,X5,전년대비 변화율,재고자산 (Inventory)의 전년대비 변화율
+X5_pct2,X5,2년 변화율,재고자산 (Inventory)의 2년 변화율
+X5_pct3,X5,3년 변화율,재고자산 (Inventory)의 3년 변화율
+X5_diff1,X5,전년대비 절대변화량,재고자산 (Inventory)의 전년대비 절대변화량
+X5_diff2,X5,2년 절대변화량,재고자산 (Inventory)의 2년 절대변화량
+X5_ma3,X5,3년 이동평균,재고자산 (Inventory)의 3년 이동평균
+X5_ma5,X5,5년 이동평균,재고자산 (Inventory)의 5년 이동평균
+X5_std3,X5,3년 변동성(표준편차),재고자산 (Inventory)의 3년 변동성(표준편차)
+X5_std5,X5,5년 변동성(표준편차),재고자산 (Inventory)의 5년 변동성(표준편차)
+X5_min3,X5,3년 최솟값,재고자산 (Inventory)의 3년 최솟값
+X5_max3,X5,3년 최댓값,재고자산 (Inventory)의 3년 최댓값
+X5_min5,X5,5년 최솟값,재고자산 (Inventory)의 5년 최솟값
+X5_max5,X5,5년 최댓값,재고자산 (Inventory)의 5년 최댓값
+X5_acc,X5,가속도(변화율의 변화),재고자산 (Inventory)의 가속도(변화율의 변화)
+X5_ratio_ma3,X5,현재값/3년이동평균,재고자산 (Inventory)의 현재값/3년이동평균
+X5_ratio_ma5,X5,현재값/5년이동평균,재고자산 (Inventory)의 현재값/5년이동평균
+X5_down3,X5,3년 연속 하락 여부(0/1),재고자산 (Inventory)의 3년 연속 하락 여부(0/1)
+X5_down5,X5,5년 연속 하락 여부(0/1),재고자산 (Inventory)의 5년 연속 하락 여부(0/1)
+X5_up3,X5,3년 연속 상승 여부(0/1),재고자산 (Inventory)의 3년 연속 상승 여부(0/1)
+X5_lag1,X5,1년 전 값,재고자산 (Inventory)의 1년 전 값
+X5_lag2,X5,2년 전 값,재고자산 (Inventory)의 2년 전 값
+X5_lag3,X5,3년 전 값,재고자산 (Inventory)의 3년 전 값
+X6_pct1,X6,전년대비 변화율,당기순이익 (Net Income)의 전년대비 변화율
+X6_pct2,X6,2년 변화율,당기순이익 (Net Income)의 2년 변화율
+X6_pct3,X6,3년 변화율,당기순이익 (Net Income)의 3년 변화율
+X6_diff1,X6,전년대비 절대변화량,당기순이익 (Net Income)의 전년대비 절대변화량
+X6_diff2,X6,2년 절대변화량,당기순이익 (Net Income)의 2년 절대변화량
+X6_ma3,X6,3년 이동평균,당기순이익 (Net Income)의 3년 이동평균
+X6_ma5,X6,5년 이동평균,당기순이익 (Net Income)의 5년 이동평균
+X6_std3,X6,3년 변동성(표준편차),당기순이익 (Net Income)의 3년 변동성(표준편차)
+X6_std5,X6,5년 변동성(표준편차),당기순이익 (Net Income)의 5년 변동성(표준편차)
+X6_min3,X6,3년 최솟값,당기순이익 (Net Income)의 3년 최솟값
+X6_max3,X6,3년 최댓값,당기순이익 (Net Income)의 3년 최댓값
+X6_min5,X6,5년 최솟값,당기순이익 (Net Income)의 5년 최솟값
+X6_max5,X6,5년 최댓값,당기순이익 (Net Income)의 5년 최댓값
+X6_acc,X6,가속도(변화율의 변화),당기순이익 (Net Income)의 가속도(변화율의 변화)
+X6_ratio_ma3,X6,현재값/3년이동평균,당기순이익 (Net Income)의 현재값/3년이동평균
+X6_ratio_ma5,X6,현재값/5년이동평균,당기순이익 (Net Income)의 현재값/5년이동평균
+X6_down3,X6,3년 연속 하락 여부(0/1),당기순이익 (Net Income)의 3년 연속 하락 여부(0/1)
+X6_down5,X6,5년 연속 하락 여부(0/1),당기순이익 (Net Income)의 5년 연속 하락 여부(0/1)
+X6_up3,X6,3년 연속 상승 여부(0/1),당기순이익 (Net Income)의 3년 연속 상승 여부(0/1)
+X6_lag1,X6,1년 전 값,당기순이익 (Net Income)의 1년 전 값
+X6_lag2,X6,2년 전 값,당기순이익 (Net Income)의 2년 전 값
+X6_lag3,X6,3년 전 값,당기순이익 (Net Income)의 3년 전 값
+X7_pct1,X7,전년대비 변화율,매출채권 (Total Receivables)의 전년대비 변화율
+X7_pct2,X7,2년 변화율,매출채권 (Total Receivables)의 2년 변화율
+X7_pct3,X7,3년 변화율,매출채권 (Total Receivables)의 3년 변화율
+X7_diff1,X7,전년대비 절대변화량,매출채권 (Total Receivables)의 전년대비 절대변화량
+X7_diff2,X7,2년 절대변화량,매출채권 (Total Receivables)의 2년 절대변화량
+X7_ma3,X7,3년 이동평균,매출채권 (Total Receivables)의 3년 이동평균
+X7_ma5,X7,5년 이동평균,매출채권 (Total Receivables)의 5년 이동평균
+X7_std3,X7,3년 변동성(표준편차),매출채권 (Total Receivables)의 3년 변동성(표준편차)
+X7_std5,X7,5년 변동성(표준편차),매출채권 (Total Receivables)의 5년 변동성(표준편차)
+X7_min3,X7,3년 최솟값,매출채권 (Total Receivables)의 3년 최솟값
+X7_max3,X7,3년 최댓값,매출채권 (Total Receivables)의 3년 최댓값
+X7_min5,X7,5년 최솟값,매출채권 (Total Receivables)의 5년 최솟값
+X7_max5,X7,5년 최댓값,매출채권 (Total Receivables)의 5년 최댓값
+X7_acc,X7,가속도(변화율의 변화),매출채권 (Total Receivables)의 가속도(변화율의 변화)
+X7_ratio_ma3,X7,현재값/3년이동평균,매출채권 (Total Receivables)의 현재값/3년이동평균
+X7_ratio_ma5,X7,현재값/5년이동평균,매출채권 (Total Receivables)의 현재값/5년이동평균
+X7_down3,X7,3년 연속 하락 여부(0/1),매출채권 (Total Receivables)의 3년 연속 하락 여부(0/1)
+X7_down5,X7,5년 연속 하락 여부(0/1),매출채권 (Total Receivables)의 5년 연속 하락 여부(0/1)
+X7_up3,X7,3년 연속 상승 여부(0/1),매출채권 (Total Receivables)의 3년 연속 상승 여부(0/1)
+X7_lag1,X7,1년 전 값,매출채권 (Total Receivables)의 1년 전 값
+X7_lag2,X7,2년 전 값,매출채권 (Total Receivables)의 2년 전 값
+X7_lag3,X7,3년 전 값,매출채권 (Total Receivables)의 3년 전 값
+X8_pct1,X8,전년대비 변화율,시가총액 (Market Value)의 전년대비 변화율
+X8_pct2,X8,2년 변화율,시가총액 (Market Value)의 2년 변화율
+X8_pct3,X8,3년 변화율,시가총액 (Market Value)의 3년 변화율
+X8_diff1,X8,전년대비 절대변화량,시가총액 (Market Value)의 전년대비 절대변화량
+X8_diff2,X8,2년 절대변화량,시가총액 (Market Value)의 2년 절대변화량
+X8_ma3,X8,3년 이동평균,시가총액 (Market Value)의 3년 이동평균
+X8_ma5,X8,5년 이동평균,시가총액 (Market Value)의 5년 이동평균
+X8_std3,X8,3년 변동성(표준편차),시가총액 (Market Value)의 3년 변동성(표준편차)
+X8_std5,X8,5년 변동성(표준편차),시가총액 (Market Value)의 5년 변동성(표준편차)
+X8_min3,X8,3년 최솟값,시가총액 (Market Value)의 3년 최솟값
+X8_max3,X8,3년 최댓값,시가총액 (Market Value)의 3년 최댓값
+X8_min5,X8,5년 최솟값,시가총액 (Market Value)의 5년 최솟값
+X8_max5,X8,5년 최댓값,시가총액 (Market Value)의 5년 최댓값
+X8_acc,X8,가속도(변화율의 변화),시가총액 (Market Value)의 가속도(변화율의 변화)
+X8_ratio_ma3,X8,현재값/3년이동평균,시가총액 (Market Value)의 현재값/3년이동평균
+X8_ratio_ma5,X8,현재값/5년이동평균,시가총액 (Market Value)의 현재값/5년이동평균
+X8_down3,X8,3년 연속 하락 여부(0/1),시가총액 (Market Value)의 3년 연속 하락 여부(0/1)
+X8_down5,X8,5년 연속 하락 여부(0/1),시가총액 (Market Value)의 5년 연속 하락 여부(0/1)
+X8_up3,X8,3년 연속 상승 여부(0/1),시가총액 (Market Value)의 3년 연속 상승 여부(0/1)
+X8_lag1,X8,1년 전 값,시가총액 (Market Value)의 1년 전 값
+X8_lag2,X8,2년 전 값,시가총액 (Market Value)의 2년 전 값
+X8_lag3,X8,3년 전 값,시가총액 (Market Value)의 3년 전 값
+X9_pct1,X9,전년대비 변화율,순매출액 (Net Sales)의 전년대비 변화율
+X9_pct2,X9,2년 변화율,순매출액 (Net Sales)의 2년 변화율
+X9_pct3,X9,3년 변화율,순매출액 (Net Sales)의 3년 변화율
+X9_diff1,X9,전년대비 절대변화량,순매출액 (Net Sales)의 전년대비 절대변화량
+X9_diff2,X9,2년 절대변화량,순매출액 (Net Sales)의 2년 절대변화량
+X9_ma3,X9,3년 이동평균,순매출액 (Net Sales)의 3년 이동평균
+X9_ma5,X9,5년 이동평균,순매출액 (Net Sales)의 5년 이동평균
+X9_std3,X9,3년 변동성(표준편차),순매출액 (Net Sales)의 3년 변동성(표준편차)
+X9_std5,X9,5년 변동성(표준편차),순매출액 (Net Sales)의 5년 변동성(표준편차)
+X9_min3,X9,3년 최솟값,순매출액 (Net Sales)의 3년 최솟값
+X9_max3,X9,3년 최댓값,순매출액 (Net Sales)의 3년 최댓값
+X9_min5,X9,5년 최솟값,순매출액 (Net Sales)의 5년 최솟값
+X9_max5,X9,5년 최댓값,순매출액 (Net Sales)의 5년 최댓값
+X9_acc,X9,가속도(변화율의 변화),순매출액 (Net Sales)의 가속도(변화율의 변화)
+X9_ratio_ma3,X9,현재값/3년이동평균,순매출액 (Net Sales)의 현재값/3년이동평균
+X9_ratio_ma5,X9,현재값/5년이동평균,순매출액 (Net Sales)의 현재값/5년이동평균
+X9_down3,X9,3년 연속 하락 여부(0/1),순매출액 (Net Sales)의 3년 연속 하락 여부(0/1)
+X9_down5,X9,5년 연속 하락 여부(0/1),순매출액 (Net Sales)의 5년 연속 하락 여부(0/1)
+X9_up3,X9,3년 연속 상승 여부(0/1),순매출액 (Net Sales)의 3년 연속 상승 여부(0/1)
+X9_lag1,X9,1년 전 값,순매출액 (Net Sales)의 1년 전 값
+X9_lag2,X9,2년 전 값,순매출액 (Net Sales)의 2년 전 값
+X9_lag3,X9,3년 전 값,순매출액 (Net Sales)의 3년 전 값
+X10_pct1,X10,전년대비 변화율,총자산 (Total Assets)의 전년대비 변화율
+X10_pct2,X10,2년 변화율,총자산 (Total Assets)의 2년 변화율
+X10_pct3,X10,3년 변화율,총자산 (Total Assets)의 3년 변화율
+X10_diff1,X10,전년대비 절대변화량,총자산 (Total Assets)의 전년대비 절대변화량
+X10_diff2,X10,2년 절대변화량,총자산 (Total Assets)의 2년 절대변화량
+X10_ma3,X10,3년 이동평균,총자산 (Total Assets)의 3년 이동평균
+X10_ma5,X10,5년 이동평균,총자산 (Total Assets)의 5년 이동평균
+X10_std3,X10,3년 변동성(표준편차),총자산 (Total Assets)의 3년 변동성(표준편차)
+X10_std5,X10,5년 변동성(표준편차),총자산 (Total Assets)의 5년 변동성(표준편차)
+X10_min3,X10,3년 최솟값,총자산 (Total Assets)의 3년 최솟값
+X10_max3,X10,3년 최댓값,총자산 (Total Assets)의 3년 최댓값
+X10_min5,X10,5년 최솟값,총자산 (Total Assets)의 5년 최솟값
+X10_max5,X10,5년 최댓값,총자산 (Total Assets)의 5년 최댓값
+X10_acc,X10,가속도(변화율의 변화),총자산 (Total Assets)의 가속도(변화율의 변화)
+X10_ratio_ma3,X10,현재값/3년이동평균,총자산 (Total Assets)의 현재값/3년이동평균
+X10_ratio_ma5,X10,현재값/5년이동평균,총자산 (Total Assets)의 현재값/5년이동평균
+X10_down3,X10,3년 연속 하락 여부(0/1),총자산 (Total Assets)의 3년 연속 하락 여부(0/1)
+X10_down5,X10,5년 연속 하락 여부(0/1),총자산 (Total Assets)의 5년 연속 하락 여부(0/1)
+X10_up3,X10,3년 연속 상승 여부(0/1),총자산 (Total Assets)의 3년 연속 상승 여부(0/1)
+X10_lag1,X10,1년 전 값,총자산 (Total Assets)의 1년 전 값
+X10_lag2,X10,2년 전 값,총자산 (Total Assets)의 2년 전 값
+X10_lag3,X10,3년 전 값,총자산 (Total Assets)의 3년 전 값
+X11_pct1,X11,전년대비 변화율,장기부채 (Total Long-term Debt)의 전년대비 변화율
+X11_pct2,X11,2년 변화율,장기부채 (Total Long-term Debt)의 2년 변화율
+X11_pct3,X11,3년 변화율,장기부채 (Total Long-term Debt)의 3년 변화율
+X11_diff1,X11,전년대비 절대변화량,장기부채 (Total Long-term Debt)의 전년대비 절대변화량
+X11_diff2,X11,2년 절대변화량,장기부채 (Total Long-term Debt)의 2년 절대변화량
+X11_ma3,X11,3년 이동평균,장기부채 (Total Long-term Debt)의 3년 이동평균
+X11_ma5,X11,5년 이동평균,장기부채 (Total Long-term Debt)의 5년 이동평균
+X11_std3,X11,3년 변동성(표준편차),장기부채 (Total Long-term Debt)의 3년 변동성(표준편차)
+X11_std5,X11,5년 변동성(표준편차),장기부채 (Total Long-term Debt)의 5년 변동성(표준편차)
+X11_min3,X11,3년 최솟값,장기부채 (Total Long-term Debt)의 3년 최솟값
+X11_max3,X11,3년 최댓값,장기부채 (Total Long-term Debt)의 3년 최댓값
+X11_min5,X11,5년 최솟값,장기부채 (Total Long-term Debt)의 5년 최솟값
+X11_max5,X11,5년 최댓값,장기부채 (Total Long-term Debt)의 5년 최댓값
+X11_acc,X11,가속도(변화율의 변화),장기부채 (Total Long-term Debt)의 가속도(변화율의 변화)
+X11_ratio_ma3,X11,현재값/3년이동평균,장기부채 (Total Long-term Debt)의 현재값/3년이동평균
+X11_ratio_ma5,X11,현재값/5년이동평균,장기부채 (Total Long-term Debt)의 현재값/5년이동평균
+X11_down3,X11,3년 연속 하락 여부(0/1),장기부채 (Total Long-term Debt)의 3년 연속 하락 여부(0/1)
+X11_down5,X11,5년 연속 하락 여부(0/1),장기부채 (Total Long-term Debt)의 5년 연속 하락 여부(0/1)
+X11_up3,X11,3년 연속 상승 여부(0/1),장기부채 (Total Long-term Debt)의 3년 연속 상승 여부(0/1)
+X11_lag1,X11,1년 전 값,장기부채 (Total Long-term Debt)의 1년 전 값
+X11_lag2,X11,2년 전 값,장기부채 (Total Long-term Debt)의 2년 전 값
+X11_lag3,X11,3년 전 값,장기부채 (Total Long-term Debt)의 3년 전 값
+X12_pct1,X12,전년대비 변화율,EBIT의 전년대비 변화율
+X12_pct2,X12,2년 변화율,EBIT의 2년 변화율
+X12_pct3,X12,3년 변화율,EBIT의 3년 변화율
+X12_diff1,X12,전년대비 절대변화량,EBIT의 전년대비 절대변화량
+X12_diff2,X12,2년 절대변화량,EBIT의 2년 절대변화량
+X12_ma3,X12,3년 이동평균,EBIT의 3년 이동평균
+X12_ma5,X12,5년 이동평균,EBIT의 5년 이동평균
+X12_std3,X12,3년 변동성(표준편차),EBIT의 3년 변동성(표준편차)
+X12_std5,X12,5년 변동성(표준편차),EBIT의 5년 변동성(표준편차)
+X12_min3,X12,3년 최솟값,EBIT의 3년 최솟값
+X12_max3,X12,3년 최댓값,EBIT의 3년 최댓값
+X12_min5,X12,5년 최솟값,EBIT의 5년 최솟값
+X12_max5,X12,5년 최댓값,EBIT의 5년 최댓값
+X12_acc,X12,가속도(변화율의 변화),EBIT의 가속도(변화율의 변화)
+X12_ratio_ma3,X12,현재값/3년이동평균,EBIT의 현재값/3년이동평균
+X12_ratio_ma5,X12,현재값/5년이동평균,EBIT의 현재값/5년이동평균
+X12_down3,X12,3년 연속 하락 여부(0/1),EBIT의 3년 연속 하락 여부(0/1)
+X12_down5,X12,5년 연속 하락 여부(0/1),EBIT의 5년 연속 하락 여부(0/1)
+X12_up3,X12,3년 연속 상승 여부(0/1),EBIT의 3년 연속 상승 여부(0/1)
+X12_lag1,X12,1년 전 값,EBIT의 1년 전 값
+X12_lag2,X12,2년 전 값,EBIT의 2년 전 값
+X12_lag3,X12,3년 전 값,EBIT의 3년 전 값
+X13_pct1,X13,전년대비 변화율,매출총이익 (Gross Profit)의 전년대비 변화율
+X13_pct2,X13,2년 변화율,매출총이익 (Gross Profit)의 2년 변화율
+X13_pct3,X13,3년 변화율,매출총이익 (Gross Profit)의 3년 변화율
+X13_diff1,X13,전년대비 절대변화량,매출총이익 (Gross Profit)의 전년대비 절대변화량
+X13_diff2,X13,2년 절대변화량,매출총이익 (Gross Profit)의 2년 절대변화량
+X13_ma3,X13,3년 이동평균,매출총이익 (Gross Profit)의 3년 이동평균
+X13_ma5,X13,5년 이동평균,매출총이익 (Gross Profit)의 5년 이동평균
+X13_std3,X13,3년 변동성(표준편차),매출총이익 (Gross Profit)의 3년 변동성(표준편차)
+X13_std5,X13,5년 변동성(표준편차),매출총이익 (Gross Profit)의 5년 변동성(표준편차)
+X13_min3,X13,3년 최솟값,매출총이익 (Gross Profit)의 3년 최솟값
+X13_max3,X13,3년 최댓값,매출총이익 (Gross Profit)의 3년 최댓값
+X13_min5,X13,5년 최솟값,매출총이익 (Gross Profit)의 5년 최솟값
+X13_max5,X13,5년 최댓값,매출총이익 (Gross Profit)의 5년 최댓값
+X13_acc,X13,가속도(변화율의 변화),매출총이익 (Gross Profit)의 가속도(변화율의 변화)
+X13_ratio_ma3,X13,현재값/3년이동평균,매출총이익 (Gross Profit)의 현재값/3년이동평균
+X13_ratio_ma5,X13,현재값/5년이동평균,매출총이익 (Gross Profit)의 현재값/5년이동평균
+X13_down3,X13,3년 연속 하락 여부(0/1),매출총이익 (Gross Profit)의 3년 연속 하락 여부(0/1)
+X13_down5,X13,5년 연속 하락 여부(0/1),매출총이익 (Gross Profit)의 5년 연속 하락 여부(0/1)
+X13_up3,X13,3년 연속 상승 여부(0/1),매출총이익 (Gross Profit)의 3년 연속 상승 여부(0/1)
+X13_lag1,X13,1년 전 값,매출총이익 (Gross Profit)의 1년 전 값
+X13_lag2,X13,2년 전 값,매출총이익 (Gross Profit)의 2년 전 값
+X13_lag3,X13,3년 전 값,매출총이익 (Gross Profit)의 3년 전 값
+X14_pct1,X14,전년대비 변화율,유동부채 (Total Current Liabilities)의 전년대비 변화율
+X14_pct2,X14,2년 변화율,유동부채 (Total Current Liabilities)의 2년 변화율
+X14_pct3,X14,3년 변화율,유동부채 (Total Current Liabilities)의 3년 변화율
+X14_diff1,X14,전년대비 절대변화량,유동부채 (Total Current Liabilities)의 전년대비 절대변화량
+X14_diff2,X14,2년 절대변화량,유동부채 (Total Current Liabilities)의 2년 절대변화량
+X14_ma3,X14,3년 이동평균,유동부채 (Total Current Liabilities)의 3년 이동평균
+X14_ma5,X14,5년 이동평균,유동부채 (Total Current Liabilities)의 5년 이동평균
+X14_std3,X14,3년 변동성(표준편차),유동부채 (Total Current Liabilities)의 3년 변동성(표준편차)
+X14_std5,X14,5년 변동성(표준편차),유동부채 (Total Current Liabilities)의 5년 변동성(표준편차)
+X14_min3,X14,3년 최솟값,유동부채 (Total Current Liabilities)의 3년 최솟값
+X14_max3,X14,3년 최댓값,유동부채 (Total Current Liabilities)의 3년 최댓값
+X14_min5,X14,5년 최솟값,유동부채 (Total Current Liabilities)의 5년 최솟값
+X14_max5,X14,5년 최댓값,유동부채 (Total Current Liabilities)의 5년 최댓값
+X14_acc,X14,가속도(변화율의 변화),유동부채 (Total Current Liabilities)의 가속도(변화율의 변화)
+X14_ratio_ma3,X14,현재값/3년이동평균,유동부채 (Total Current Liabilities)의 현재값/3년이동평균
+X14_ratio_ma5,X14,현재값/5년이동평균,유동부채 (Total Current Liabilities)의 현재값/5년이동평균
+X14_down3,X14,3년 연속 하락 여부(0/1),유동부채 (Total Current Liabilities)의 3년 연속 하락 여부(0/1)
+X14_down5,X14,5년 연속 하락 여부(0/1),유동부채 (Total Current Liabilities)의 5년 연속 하락 여부(0/1)
+X14_up3,X14,3년 연속 상승 여부(0/1),유동부채 (Total Current Liabilities)의 3년 연속 상승 여부(0/1)
+X14_lag1,X14,1년 전 값,유동부채 (Total Current Liabilities)의 1년 전 값
+X14_lag2,X14,2년 전 값,유동부채 (Total Current Liabilities)의 2년 전 값
+X14_lag3,X14,3년 전 값,유동부채 (Total Current Liabilities)의 3년 전 값
+X15_pct1,X15,전년대비 변화율,이익잉여금 (Retained Earnings)의 전년대비 변화율
+X15_pct2,X15,2년 변화율,이익잉여금 (Retained Earnings)의 2년 변화율
+X15_pct3,X15,3년 변화율,이익잉여금 (Retained Earnings)의 3년 변화율
+X15_diff1,X15,전년대비 절대변화량,이익잉여금 (Retained Earnings)의 전년대비 절대변화량
+X15_diff2,X15,2년 절대변화량,이익잉여금 (Retained Earnings)의 2년 절대변화량
+X15_ma3,X15,3년 이동평균,이익잉여금 (Retained Earnings)의 3년 이동평균
+X15_ma5,X15,5년 이동평균,이익잉여금 (Retained Earnings)의 5년 이동평균
+X15_std3,X15,3년 변동성(표준편차),이익잉여금 (Retained Earnings)의 3년 변동성(표준편차)
+X15_std5,X15,5년 변동성(표준편차),이익잉여금 (Retained Earnings)의 5년 변동성(표준편차)
+X15_min3,X15,3년 최솟값,이익잉여금 (Retained Earnings)의 3년 최솟값
+X15_max3,X15,3년 최댓값,이익잉여금 (Retained Earnings)의 3년 최댓값
+X15_min5,X15,5년 최솟값,이익잉여금 (Retained Earnings)의 5년 최솟값
+X15_max5,X15,5년 최댓값,이익잉여금 (Retained Earnings)의 5년 최댓값
+X15_acc,X15,가속도(변화율의 변화),이익잉여금 (Retained Earnings)의 가속도(변화율의 변화)
+X15_ratio_ma3,X15,현재값/3년이동평균,이익잉여금 (Retained Earnings)의 현재값/3년이동평균
+X15_ratio_ma5,X15,현재값/5년이동평균,이익잉여금 (Retained Earnings)의 현재값/5년이동평균
+X15_down3,X15,3년 연속 하락 여부(0/1),이익잉여금 (Retained Earnings)의 3년 연속 하락 여부(0/1)
+X15_down5,X15,5년 연속 하락 여부(0/1),이익잉여금 (Retained Earnings)의 5년 연속 하락 여부(0/1)
+X15_up3,X15,3년 연속 상승 여부(0/1),이익잉여금 (Retained Earnings)의 3년 연속 상승 여부(0/1)
+X15_lag1,X15,1년 전 값,이익잉여금 (Retained Earnings)의 1년 전 값
+X15_lag2,X15,2년 전 값,이익잉여금 (Retained Earnings)의 2년 전 값
+X15_lag3,X15,3년 전 값,이익잉여금 (Retained Earnings)의 3년 전 값
+X16_pct1,X16,전년대비 변화율,총매출액 (Total Revenue)의 전년대비 변화율
+X16_pct2,X16,2년 변화율,총매출액 (Total Revenue)의 2년 변화율
+X16_pct3,X16,3년 변화율,총매출액 (Total Revenue)의 3년 변화율
+X16_diff1,X16,전년대비 절대변화량,총매출액 (Total Revenue)의 전년대비 절대변화량
+X16_diff2,X16,2년 절대변화량,총매출액 (Total Revenue)의 2년 절대변화량
+X16_ma3,X16,3년 이동평균,총매출액 (Total Revenue)의 3년 이동평균
+X16_ma5,X16,5년 이동평균,총매출액 (Total Revenue)의 5년 이동평균
+X16_std3,X16,3년 변동성(표준편차),총매출액 (Total Revenue)의 3년 변동성(표준편차)
+X16_std5,X16,5년 변동성(표준편차),총매출액 (Total Revenue)의 5년 변동성(표준편차)
+X16_min3,X16,3년 최솟값,총매출액 (Total Revenue)의 3년 최솟값
+X16_max3,X16,3년 최댓값,총매출액 (Total Revenue)의 3년 최댓값
+X16_min5,X16,5년 최솟값,총매출액 (Total Revenue)의 5년 최솟값
+X16_max5,X16,5년 최댓값,총매출액 (Total Revenue)의 5년 최댓값
+X16_acc,X16,가속도(변화율의 변화),총매출액 (Total Revenue)의 가속도(변화율의 변화)
+X16_ratio_ma3,X16,현재값/3년이동평균,총매출액 (Total Revenue)의 현재값/3년이동평균
+X16_ratio_ma5,X16,현재값/5년이동평균,총매출액 (Total Revenue)의 현재값/5년이동평균
+X16_down3,X16,3년 연속 하락 여부(0/1),총매출액 (Total Revenue)의 3년 연속 하락 여부(0/1)
+X16_down5,X16,5년 연속 하락 여부(0/1),총매출액 (Total Revenue)의 5년 연속 하락 여부(0/1)
+X16_up3,X16,3년 연속 상승 여부(0/1),총매출액 (Total Revenue)의 3년 연속 상승 여부(0/1)
+X16_lag1,X16,1년 전 값,총매출액 (Total Revenue)의 1년 전 값
+X16_lag2,X16,2년 전 값,총매출액 (Total Revenue)의 2년 전 값
+X16_lag3,X16,3년 전 값,총매출액 (Total Revenue)의 3년 전 값
+X17_pct1,X17,전년대비 변화율,총부채 (Total Liabilities)의 전년대비 변화율
+X17_pct2,X17,2년 변화율,총부채 (Total Liabilities)의 2년 변화율
+X17_pct3,X17,3년 변화율,총부채 (Total Liabilities)의 3년 변화율
+X17_diff1,X17,전년대비 절대변화량,총부채 (Total Liabilities)의 전년대비 절대변화량
+X17_diff2,X17,2년 절대변화량,총부채 (Total Liabilities)의 2년 절대변화량
+X17_ma3,X17,3년 이동평균,총부채 (Total Liabilities)의 3년 이동평균
+X17_ma5,X17,5년 이동평균,총부채 (Total Liabilities)의 5년 이동평균
+X17_std3,X17,3년 변동성(표준편차),총부채 (Total Liabilities)의 3년 변동성(표준편차)
+X17_std5,X17,5년 변동성(표준편차),총부채 (Total Liabilities)의 5년 변동성(표준편차)
+X17_min3,X17,3년 최솟값,총부채 (Total Liabilities)의 3년 최솟값
+X17_max3,X17,3년 최댓값,총부채 (Total Liabilities)의 3년 최댓값
+X17_min5,X17,5년 최솟값,총부채 (Total Liabilities)의 5년 최솟값
+X17_max5,X17,5년 최댓값,총부채 (Total Liabilities)의 5년 최댓값
+X17_acc,X17,가속도(변화율의 변화),총부채 (Total Liabilities)의 가속도(변화율의 변화)
+X17_ratio_ma3,X17,현재값/3년이동평균,총부채 (Total Liabilities)의 현재값/3년이동평균
+X17_ratio_ma5,X17,현재값/5년이동평균,총부채 (Total Liabilities)의 현재값/5년이동평균
+X17_down3,X17,3년 연속 하락 여부(0/1),총부채 (Total Liabilities)의 3년 연속 하락 여부(0/1)
+X17_down5,X17,5년 연속 하락 여부(0/1),총부채 (Total Liabilities)의 5년 연속 하락 여부(0/1)
+X17_up3,X17,3년 연속 상승 여부(0/1),총부채 (Total Liabilities)의 3년 연속 상승 여부(0/1)
+X17_lag1,X17,1년 전 값,총부채 (Total Liabilities)의 1년 전 값
+X17_lag2,X17,2년 전 값,총부채 (Total Liabilities)의 2년 전 값
+X17_lag3,X17,3년 전 값,총부채 (Total Liabilities)의 3년 전 값
+X18_pct1,X18,전년대비 변화율,총영업비용 (Total Operating Expenses)의 전년대비 변화율
+X18_pct2,X18,2년 변화율,총영업비용 (Total Operating Expenses)의 2년 변화율
+X18_pct3,X18,3년 변화율,총영업비용 (Total Operating Expenses)의 3년 변화율
+X18_diff1,X18,전년대비 절대변화량,총영업비용 (Total Operating Expenses)의 전년대비 절대변화량
+X18_diff2,X18,2년 절대변화량,총영업비용 (Total Operating Expenses)의 2년 절대변화량
+X18_ma3,X18,3년 이동평균,총영업비용 (Total Operating Expenses)의 3년 이동평균
+X18_ma5,X18,5년 이동평균,총영업비용 (Total Operating Expenses)의 5년 이동평균
+X18_std3,X18,3년 변동성(표준편차),총영업비용 (Total Operating Expenses)의 3년 변동성(표준편차)
+X18_std5,X18,5년 변동성(표준편차),총영업비용 (Total Operating Expenses)의 5년 변동성(표준편차)
+X18_min3,X18,3년 최솟값,총영업비용 (Total Operating Expenses)의 3년 최솟값
+X18_max3,X18,3년 최댓값,총영업비용 (Total Operating Expenses)의 3년 최댓값
+X18_min5,X18,5년 최솟값,총영업비용 (Total Operating Expenses)의 5년 최솟값
+X18_max5,X18,5년 최댓값,총영업비용 (Total Operating Expenses)의 5년 최댓값
+X18_acc,X18,가속도(변화율의 변화),총영업비용 (Total Operating Expenses)의 가속도(변화율의 변화)
+X18_ratio_ma3,X18,현재값/3년이동평균,총영업비용 (Total Operating Expenses)의 현재값/3년이동평균
+X18_ratio_ma5,X18,현재값/5년이동평균,총영업비용 (Total Operating Expenses)의 현재값/5년이동평균
+X18_down3,X18,3년 연속 하락 여부(0/1),총영업비용 (Total Operating Expenses)의 3년 연속 하락 여부(0/1)
+X18_down5,X18,5년 연속 하락 여부(0/1),총영업비용 (Total Operating Expenses)의 5년 연속 하락 여부(0/1)
+X18_up3,X18,3년 연속 상승 여부(0/1),총영업비용 (Total Operating Expenses)의 3년 연속 상승 여부(0/1)
+X18_lag1,X18,1년 전 값,총영업비용 (Total Operating Expenses)의 1년 전 값
+X18_lag2,X18,2년 전 값,총영업비용 (Total Operating Expenses)의 2년 전 값
+X18_lag3,X18,3년 전 값,총영업비용 (Total Operating Expenses)의 3년 전 값
+X1_div_X2,"X1,X2",2개조합_나누기,유동자산 (Current Assets) / 매출원가 (Cost of Goods Sold)
+X1_div_X3,"X1,X3",2개조합_나누기,유동자산 (Current Assets) / 감가상각 (Depreciation & Amortization)
+X1_div_X4,"X1,X4",2개조합_나누기,유동자산 (Current Assets) / EBITDA
+X1_div_X5,"X1,X5",2개조합_나누기,유동자산 (Current Assets) / 재고자산 (Inventory)
+X1_div_X6,"X1,X6",2개조합_나누기,유동자산 (Current Assets) / 당기순이익 (Net Income)
+X1_div_X7,"X1,X7",2개조합_나누기,유동자산 (Current Assets) / 매출채권 (Total Receivables)
+X1_div_X8,"X1,X8",2개조합_나누기,유동자산 (Current Assets) / 시가총액 (Market Value)
+X1_div_X9,"X1,X9",2개조합_나누기,유동자산 (Current Assets) / 순매출액 (Net Sales)
+X1_div_X10,"X1,X10",2개조합_나누기,유동자산 (Current Assets) / 총자산 (Total Assets)
+X1_div_X11,"X1,X11",2개조합_나누기,유동자산 (Current Assets) / 장기부채 (Total Long-term Debt)
+X1_div_X12,"X1,X12",2개조합_나누기,유동자산 (Current Assets) / EBIT
+X1_div_X13,"X1,X13",2개조합_나누기,유동자산 (Current Assets) / 매출총이익 (Gross Profit)
+X1_div_X14,"X1,X14",2개조합_나누기,유동자산 (Current Assets) / 유동부채 (Total Current Liabilities)
+X1_div_X15,"X1,X15",2개조합_나누기,유동자산 (Current Assets) / 이익잉여금 (Retained Earnings)
+X1_div_X16,"X1,X16",2개조합_나누기,유동자산 (Current Assets) / 총매출액 (Total Revenue)
+X1_div_X17,"X1,X17",2개조합_나누기,유동자산 (Current Assets) / 총부채 (Total Liabilities)
+X1_div_X18,"X1,X18",2개조합_나누기,유동자산 (Current Assets) / 총영업비용 (Total Operating Expenses)
+X2_div_X1,"X2,X1",2개조합_나누기,매출원가 (Cost of Goods Sold) / 유동자산 (Current Assets)
+X2_div_X3,"X2,X3",2개조합_나누기,매출원가 (Cost of Goods Sold) / 감가상각 (Depreciation & Amortization)
+X2_div_X4,"X2,X4",2개조합_나누기,매출원가 (Cost of Goods Sold) / EBITDA
+X2_div_X5,"X2,X5",2개조합_나누기,매출원가 (Cost of Goods Sold) / 재고자산 (Inventory)
+X2_div_X6,"X2,X6",2개조합_나누기,매출원가 (Cost of Goods Sold) / 당기순이익 (Net Income)
+X2_div_X7,"X2,X7",2개조합_나누기,매출원가 (Cost of Goods Sold) / 매출채권 (Total Receivables)
+X2_div_X8,"X2,X8",2개조합_나누기,매출원가 (Cost of Goods Sold) / 시가총액 (Market Value)
+X2_div_X9,"X2,X9",2개조합_나누기,매출원가 (Cost of Goods Sold) / 순매출액 (Net Sales)
+X2_div_X10,"X2,X10",2개조합_나누기,매출원가 (Cost of Goods Sold) / 총자산 (Total Assets)
+X2_div_X11,"X2,X11",2개조합_나누기,매출원가 (Cost of Goods Sold) / 장기부채 (Total Long-term Debt)
+X2_div_X12,"X2,X12",2개조합_나누기,매출원가 (Cost of Goods Sold) / EBIT
+X2_div_X13,"X2,X13",2개조합_나누기,매출원가 (Cost of Goods Sold) / 매출총이익 (Gross Profit)
+X2_div_X14,"X2,X14",2개조합_나누기,매출원가 (Cost of Goods Sold) / 유동부채 (Total Current Liabilities)
+X2_div_X15,"X2,X15",2개조합_나누기,매출원가 (Cost of Goods Sold) / 이익잉여금 (Retained Earnings)
+X2_div_X16,"X2,X16",2개조합_나누기,매출원가 (Cost of Goods Sold) / 총매출액 (Total Revenue)
+X2_div_X17,"X2,X17",2개조합_나누기,매출원가 (Cost of Goods Sold) / 총부채 (Total Liabilities)
+X2_div_X18,"X2,X18",2개조합_나누기,매출원가 (Cost of Goods Sold) / 총영업비용 (Total Operating Expenses)
+X3_div_X1,"X3,X1",2개조합_나누기,감가상각 (Depreciation & Amortization) / 유동자산 (Current Assets)
+X3_div_X2,"X3,X2",2개조합_나누기,감가상각 (Depreciation & Amortization) / 매출원가 (Cost of Goods Sold)
+X3_div_X4,"X3,X4",2개조합_나누기,감가상각 (Depreciation & Amortization) / EBITDA
+X3_div_X5,"X3,X5",2개조합_나누기,감가상각 (Depreciation & Amortization) / 재고자산 (Inventory)
+X3_div_X6,"X3,X6",2개조합_나누기,감가상각 (Depreciation & Amortization) / 당기순이익 (Net Income)
+X3_div_X7,"X3,X7",2개조합_나누기,감가상각 (Depreciation & Amortization) / 매출채권 (Total Receivables)
+X3_div_X8,"X3,X8",2개조합_나누기,감가상각 (Depreciation & Amortization) / 시가총액 (Market Value)
+X3_div_X9,"X3,X9",2개조합_나누기,감가상각 (Depreciation & Amortization) / 순매출액 (Net Sales)
+X3_div_X10,"X3,X10",2개조합_나누기,감가상각 (Depreciation & Amortization) / 총자산 (Total Assets)
+X3_div_X11,"X3,X11",2개조합_나누기,감가상각 (Depreciation & Amortization) / 장기부채 (Total Long-term Debt)
+X3_div_X12,"X3,X12",2개조합_나누기,감가상각 (Depreciation & Amortization) / EBIT
+X3_div_X13,"X3,X13",2개조합_나누기,감가상각 (Depreciation & Amortization) / 매출총이익 (Gross Profit)
+X3_div_X14,"X3,X14",2개조합_나누기,감가상각 (Depreciation & Amortization) / 유동부채 (Total Current Liabilities)
+X3_div_X15,"X3,X15",2개조합_나누기,감가상각 (Depreciation & Amortization) / 이익잉여금 (Retained Earnings)
+X3_div_X16,"X3,X16",2개조합_나누기,감가상각 (Depreciation & Amortization) / 총매출액 (Total Revenue)
+X3_div_X17,"X3,X17",2개조합_나누기,감가상각 (Depreciation & Amortization) / 총부채 (Total Liabilities)
+X3_div_X18,"X3,X18",2개조합_나누기,감가상각 (Depreciation & Amortization) / 총영업비용 (Total Operating Expenses)
+X4_div_X1,"X4,X1",2개조합_나누기,EBITDA / 유동자산 (Current Assets)
+X4_div_X2,"X4,X2",2개조합_나누기,EBITDA / 매출원가 (Cost of Goods Sold)
+X4_div_X3,"X4,X3",2개조합_나누기,EBITDA / 감가상각 (Depreciation & Amortization)
+X4_div_X5,"X4,X5",2개조합_나누기,EBITDA / 재고자산 (Inventory)
+X4_div_X6,"X4,X6",2개조합_나누기,EBITDA / 당기순이익 (Net Income)
+X4_div_X7,"X4,X7",2개조합_나누기,EBITDA / 매출채권 (Total Receivables)
+X4_div_X8,"X4,X8",2개조합_나누기,EBITDA / 시가총액 (Market Value)
+X4_div_X9,"X4,X9",2개조합_나누기,EBITDA / 순매출액 (Net Sales)
+X4_div_X10,"X4,X10",2개조합_나누기,EBITDA / 총자산 (Total Assets)
+X4_div_X11,"X4,X11",2개조합_나누기,EBITDA / 장기부채 (Total Long-term Debt)
+X4_div_X12,"X4,X12",2개조합_나누기,EBITDA / EBIT
+X4_div_X13,"X4,X13",2개조합_나누기,EBITDA / 매출총이익 (Gross Profit)
+X4_div_X14,"X4,X14",2개조합_나누기,EBITDA / 유동부채 (Total Current Liabilities)
+X4_div_X15,"X4,X15",2개조합_나누기,EBITDA / 이익잉여금 (Retained Earnings)
+X4_div_X16,"X4,X16",2개조합_나누기,EBITDA / 총매출액 (Total Revenue)
+X4_div_X17,"X4,X17",2개조합_나누기,EBITDA / 총부채 (Total Liabilities)
+X4_div_X18,"X4,X18",2개조합_나누기,EBITDA / 총영업비용 (Total Operating Expenses)
+X5_div_X1,"X5,X1",2개조합_나누기,재고자산 (Inventory) / 유동자산 (Current Assets)
+X5_div_X2,"X5,X2",2개조합_나누기,재고자산 (Inventory) / 매출원가 (Cost of Goods Sold)
+X5_div_X3,"X5,X3",2개조합_나누기,재고자산 (Inventory) / 감가상각 (Depreciation & Amortization)
+X5_div_X4,"X5,X4",2개조합_나누기,재고자산 (Inventory) / EBITDA
+X5_div_X6,"X5,X6",2개조합_나누기,재고자산 (Inventory) / 당기순이익 (Net Income)
+X5_div_X7,"X5,X7",2개조합_나누기,재고자산 (Inventory) / 매출채권 (Total Receivables)
+X5_div_X8,"X5,X8",2개조합_나누기,재고자산 (Inventory) / 시가총액 (Market Value)
+X5_div_X9,"X5,X9",2개조합_나누기,재고자산 (Inventory) / 순매출액 (Net Sales)
+X5_div_X10,"X5,X10",2개조합_나누기,재고자산 (Inventory) / 총자산 (Total Assets)
+X5_div_X11,"X5,X11",2개조합_나누기,재고자산 (Inventory) / 장기부채 (Total Long-term Debt)
+X5_div_X12,"X5,X12",2개조합_나누기,재고자산 (Inventory) / EBIT
+X5_div_X13,"X5,X13",2개조합_나누기,재고자산 (Inventory) / 매출총이익 (Gross Profit)
+X5_div_X14,"X5,X14",2개조합_나누기,재고자산 (Inventory) / 유동부채 (Total Current Liabilities)
+X5_div_X15,"X5,X15",2개조합_나누기,재고자산 (Inventory) / 이익잉여금 (Retained Earnings)
+X5_div_X16,"X5,X16",2개조합_나누기,재고자산 (Inventory) / 총매출액 (Total Revenue)
+X5_div_X17,"X5,X17",2개조합_나누기,재고자산 (Inventory) / 총부채 (Total Liabilities)
+X5_div_X18,"X5,X18",2개조합_나누기,재고자산 (Inventory) / 총영업비용 (Total Operating Expenses)
+X6_div_X1,"X6,X1",2개조합_나누기,당기순이익 (Net Income) / 유동자산 (Current Assets)
+X6_div_X2,"X6,X2",2개조합_나누기,당기순이익 (Net Income) / 매출원가 (Cost of Goods Sold)
+X6_div_X3,"X6,X3",2개조합_나누기,당기순이익 (Net Income) / 감가상각 (Depreciation & Amortization)
+X6_div_X4,"X6,X4",2개조합_나누기,당기순이익 (Net Income) / EBITDA
+X6_div_X5,"X6,X5",2개조합_나누기,당기순이익 (Net Income) / 재고자산 (Inventory)
+X6_div_X7,"X6,X7",2개조합_나누기,당기순이익 (Net Income) / 매출채권 (Total Receivables)
+X6_div_X8,"X6,X8",2개조합_나누기,당기순이익 (Net Income) / 시가총액 (Market Value)
+X6_div_X9,"X6,X9",2개조합_나누기,당기순이익 (Net Income) / 순매출액 (Net Sales)
+X6_div_X10,"X6,X10",2개조합_나누기,당기순이익 (Net Income) / 총자산 (Total Assets)
+X6_div_X11,"X6,X11",2개조합_나누기,당기순이익 (Net Income) / 장기부채 (Total Long-term Debt)
+X6_div_X12,"X6,X12",2개조합_나누기,당기순이익 (Net Income) / EBIT
+X6_div_X13,"X6,X13",2개조합_나누기,당기순이익 (Net Income) / 매출총이익 (Gross Profit)
+X6_div_X14,"X6,X14",2개조합_나누기,당기순이익 (Net Income) / 유동부채 (Total Current Liabilities)
+X6_div_X15,"X6,X15",2개조합_나누기,당기순이익 (Net Income) / 이익잉여금 (Retained Earnings)
+X6_div_X16,"X6,X16",2개조합_나누기,당기순이익 (Net Income) / 총매출액 (Total Revenue)
+X6_div_X17,"X6,X17",2개조합_나누기,당기순이익 (Net Income) / 총부채 (Total Liabilities)
+X6_div_X18,"X6,X18",2개조합_나누기,당기순이익 (Net Income) / 총영업비용 (Total Operating Expenses)
+X7_div_X1,"X7,X1",2개조합_나누기,매출채권 (Total Receivables) / 유동자산 (Current Assets)
+X7_div_X2,"X7,X2",2개조합_나누기,매출채권 (Total Receivables) / 매출원가 (Cost of Goods Sold)
+X7_div_X3,"X7,X3",2개조합_나누기,매출채권 (Total Receivables) / 감가상각 (Depreciation & Amortization)
+X7_div_X4,"X7,X4",2개조합_나누기,매출채권 (Total Receivables) / EBITDA
+X7_div_X5,"X7,X5",2개조합_나누기,매출채권 (Total Receivables) / 재고자산 (Inventory)
+X7_div_X6,"X7,X6",2개조합_나누기,매출채권 (Total Receivables) / 당기순이익 (Net Income)
+X7_div_X8,"X7,X8",2개조합_나누기,매출채권 (Total Receivables) / 시가총액 (Market Value)
+X7_div_X9,"X7,X9",2개조합_나누기,매출채권 (Total Receivables) / 순매출액 (Net Sales)
+X7_div_X10,"X7,X10",2개조합_나누기,매출채권 (Total Receivables) / 총자산 (Total Assets)
+X7_div_X11,"X7,X11",2개조합_나누기,매출채권 (Total Receivables) / 장기부채 (Total Long-term Debt)
+X7_div_X12,"X7,X12",2개조합_나누기,매출채권 (Total Receivables) / EBIT
+X7_div_X13,"X7,X13",2개조합_나누기,매출채권 (Total Receivables) / 매출총이익 (Gross Profit)
+X7_div_X14,"X7,X14",2개조합_나누기,매출채권 (Total Receivables) / 유동부채 (Total Current Liabilities)
+X7_div_X15,"X7,X15",2개조합_나누기,매출채권 (Total Receivables) / 이익잉여금 (Retained Earnings)
+X7_div_X16,"X7,X16",2개조합_나누기,매출채권 (Total Receivables) / 총매출액 (Total Revenue)
+X7_div_X17,"X7,X17",2개조합_나누기,매출채권 (Total Receivables) / 총부채 (Total Liabilities)
+X7_div_X18,"X7,X18",2개조합_나누기,매출채권 (Total Receivables) / 총영업비용 (Total Operating Expenses)
+X8_div_X1,"X8,X1",2개조합_나누기,시가총액 (Market Value) / 유동자산 (Current Assets)
+X8_div_X2,"X8,X2",2개조합_나누기,시가총액 (Market Value) / 매출원가 (Cost of Goods Sold)
+X8_div_X3,"X8,X3",2개조합_나누기,시가총액 (Market Value) / 감가상각 (Depreciation & Amortization)
+X8_div_X4,"X8,X4",2개조합_나누기,시가총액 (Market Value) / EBITDA
+X8_div_X5,"X8,X5",2개조합_나누기,시가총액 (Market Value) / 재고자산 (Inventory)
+X8_div_X6,"X8,X6",2개조합_나누기,시가총액 (Market Value) / 당기순이익 (Net Income)
+X8_div_X7,"X8,X7",2개조합_나누기,시가총액 (Market Value) / 매출채권 (Total Receivables)
+X8_div_X9,"X8,X9",2개조합_나누기,시가총액 (Market Value) / 순매출액 (Net Sales)
+X8_div_X10,"X8,X10",2개조합_나누기,시가총액 (Market Value) / 총자산 (Total Assets)
+X8_div_X11,"X8,X11",2개조합_나누기,시가총액 (Market Value) / 장기부채 (Total Long-term Debt)
+X8_div_X12,"X8,X12",2개조합_나누기,시가총액 (Market Value) / EBIT
+X8_div_X13,"X8,X13",2개조합_나누기,시가총액 (Market Value) / 매출총이익 (Gross Profit)
+X8_div_X14,"X8,X14",2개조합_나누기,시가총액 (Market Value) / 유동부채 (Total Current Liabilities)
+X8_div_X15,"X8,X15",2개조합_나누기,시가총액 (Market Value) / 이익잉여금 (Retained Earnings)
+X8_div_X16,"X8,X16",2개조합_나누기,시가총액 (Market Value) / 총매출액 (Total Revenue)
+X8_div_X17,"X8,X17",2개조합_나누기,시가총액 (Market Value) / 총부채 (Total Liabilities)
+X8_div_X18,"X8,X18",2개조합_나누기,시가총액 (Market Value) / 총영업비용 (Total Operating Expenses)
+X9_div_X1,"X9,X1",2개조합_나누기,순매출액 (Net Sales) / 유동자산 (Current Assets)
+X9_div_X2,"X9,X2",2개조합_나누기,순매출액 (Net Sales) / 매출원가 (Cost of Goods Sold)
+X9_div_X3,"X9,X3",2개조합_나누기,순매출액 (Net Sales) / 감가상각 (Depreciation & Amortization)
+X9_div_X4,"X9,X4",2개조합_나누기,순매출액 (Net Sales) / EBITDA
+X9_div_X5,"X9,X5",2개조합_나누기,순매출액 (Net Sales) / 재고자산 (Inventory)
+X9_div_X6,"X9,X6",2개조합_나누기,순매출액 (Net Sales) / 당기순이익 (Net Income)
+X9_div_X7,"X9,X7",2개조합_나누기,순매출액 (Net Sales) / 매출채권 (Total Receivables)
+X9_div_X8,"X9,X8",2개조합_나누기,순매출액 (Net Sales) / 시가총액 (Market Value)
+X9_div_X10,"X9,X10",2개조합_나누기,순매출액 (Net Sales) / 총자산 (Total Assets)
+X9_div_X11,"X9,X11",2개조합_나누기,순매출액 (Net Sales) / 장기부채 (Total Long-term Debt)
+X9_div_X12,"X9,X12",2개조합_나누기,순매출액 (Net Sales) / EBIT
+X9_div_X13,"X9,X13",2개조합_나누기,순매출액 (Net Sales) / 매출총이익 (Gross Profit)
+X9_div_X14,"X9,X14",2개조합_나누기,순매출액 (Net Sales) / 유동부채 (Total Current Liabilities)
+X9_div_X15,"X9,X15",2개조합_나누기,순매출액 (Net Sales) / 이익잉여금 (Retained Earnings)
+X9_div_X16,"X9,X16",2개조합_나누기,순매출액 (Net Sales) / 총매출액 (Total Revenue)
+X9_div_X17,"X9,X17",2개조합_나누기,순매출액 (Net Sales) / 총부채 (Total Liabilities)
+X9_div_X18,"X9,X18",2개조합_나누기,순매출액 (Net Sales) / 총영업비용 (Total Operating Expenses)
+X10_div_X1,"X10,X1",2개조합_나누기,총자산 (Total Assets) / 유동자산 (Current Assets)
+X10_div_X2,"X10,X2",2개조합_나누기,총자산 (Total Assets) / 매출원가 (Cost of Goods Sold)
+X10_div_X3,"X10,X3",2개조합_나누기,총자산 (Total Assets) / 감가상각 (Depreciation & Amortization)
+X10_div_X4,"X10,X4",2개조합_나누기,총자산 (Total Assets) / EBITDA
+X10_div_X5,"X10,X5",2개조합_나누기,총자산 (Total Assets) / 재고자산 (Inventory)
+X10_div_X6,"X10,X6",2개조합_나누기,총자산 (Total Assets) / 당기순이익 (Net Income)
+X10_div_X7,"X10,X7",2개조합_나누기,총자산 (Total Assets) / 매출채권 (Total Receivables)
+X10_div_X8,"X10,X8",2개조합_나누기,총자산 (Total Assets) / 시가총액 (Market Value)
+X10_div_X9,"X10,X9",2개조합_나누기,총자산 (Total Assets) / 순매출액 (Net Sales)
+X10_div_X11,"X10,X11",2개조합_나누기,총자산 (Total Assets) / 장기부채 (Total Long-term Debt)
+X10_div_X12,"X10,X12",2개조합_나누기,총자산 (Total Assets) / EBIT
+X10_div_X13,"X10,X13",2개조합_나누기,총자산 (Total Assets) / 매출총이익 (Gross Profit)
+X10_div_X14,"X10,X14",2개조합_나누기,총자산 (Total Assets) / 유동부채 (Total Current Liabilities)
+X10_div_X15,"X10,X15",2개조합_나누기,총자산 (Total Assets) / 이익잉여금 (Retained Earnings)
+X10_div_X16,"X10,X16",2개조합_나누기,총자산 (Total Assets) / 총매출액 (Total Revenue)
+X10_div_X17,"X10,X17",2개조합_나누기,총자산 (Total Assets) / 총부채 (Total Liabilities)
+X10_div_X18,"X10,X18",2개조합_나누기,총자산 (Total Assets) / 총영업비용 (Total Operating Expenses)
+X11_div_X1,"X11,X1",2개조합_나누기,장기부채 (Total Long-term Debt) / 유동자산 (Current Assets)
+X11_div_X2,"X11,X2",2개조합_나누기,장기부채 (Total Long-term Debt) / 매출원가 (Cost of Goods Sold)
+X11_div_X3,"X11,X3",2개조합_나누기,장기부채 (Total Long-term Debt) / 감가상각 (Depreciation & Amortization)
+X11_div_X4,"X11,X4",2개조합_나누기,장기부채 (Total Long-term Debt) / EBITDA
+X11_div_X5,"X11,X5",2개조합_나누기,장기부채 (Total Long-term Debt) / 재고자산 (Inventory)
+X11_div_X6,"X11,X6",2개조합_나누기,장기부채 (Total Long-term Debt) / 당기순이익 (Net Income)
+X11_div_X7,"X11,X7",2개조합_나누기,장기부채 (Total Long-term Debt) / 매출채권 (Total Receivables)
+X11_div_X8,"X11,X8",2개조합_나누기,장기부채 (Total Long-term Debt) / 시가총액 (Market Value)
+X11_div_X9,"X11,X9",2개조합_나누기,장기부채 (Total Long-term Debt) / 순매출액 (Net Sales)
+X11_div_X10,"X11,X10",2개조합_나누기,장기부채 (Total Long-term Debt) / 총자산 (Total Assets)
+X11_div_X12,"X11,X12",2개조합_나누기,장기부채 (Total Long-term Debt) / EBIT
+X11_div_X13,"X11,X13",2개조합_나누기,장기부채 (Total Long-term Debt) / 매출총이익 (Gross Profit)
+X11_div_X14,"X11,X14",2개조합_나누기,장기부채 (Total Long-term Debt) / 유동부채 (Total Current Liabilities)
+X11_div_X15,"X11,X15",2개조합_나누기,장기부채 (Total Long-term Debt) / 이익잉여금 (Retained Earnings)
+X11_div_X16,"X11,X16",2개조합_나누기,장기부채 (Total Long-term Debt) / 총매출액 (Total Revenue)
+X11_div_X17,"X11,X17",2개조합_나누기,장기부채 (Total Long-term Debt) / 총부채 (Total Liabilities)
+X11_div_X18,"X11,X18",2개조합_나누기,장기부채 (Total Long-term Debt) / 총영업비용 (Total Operating Expenses)
+X12_div_X1,"X12,X1",2개조합_나누기,EBIT / 유동자산 (Current Assets)
+X12_div_X2,"X12,X2",2개조합_나누기,EBIT / 매출원가 (Cost of Goods Sold)
+X12_div_X3,"X12,X3",2개조합_나누기,EBIT / 감가상각 (Depreciation & Amortization)
+X12_div_X4,"X12,X4",2개조합_나누기,EBIT / EBITDA
+X12_div_X5,"X12,X5",2개조합_나누기,EBIT / 재고자산 (Inventory)
+X12_div_X6,"X12,X6",2개조합_나누기,EBIT / 당기순이익 (Net Income)
+X12_div_X7,"X12,X7",2개조합_나누기,EBIT / 매출채권 (Total Receivables)
+X12_div_X8,"X12,X8",2개조합_나누기,EBIT / 시가총액 (Market Value)
+X12_div_X9,"X12,X9",2개조합_나누기,EBIT / 순매출액 (Net Sales)
+X12_div_X10,"X12,X10",2개조합_나누기,EBIT / 총자산 (Total Assets)
+X12_div_X11,"X12,X11",2개조합_나누기,EBIT / 장기부채 (Total Long-term Debt)
+X12_div_X13,"X12,X13",2개조합_나누기,EBIT / 매출총이익 (Gross Profit)
+X12_div_X14,"X12,X14",2개조합_나누기,EBIT / 유동부채 (Total Current Liabilities)
+X12_div_X15,"X12,X15",2개조합_나누기,EBIT / 이익잉여금 (Retained Earnings)
+X12_div_X16,"X12,X16",2개조합_나누기,EBIT / 총매출액 (Total Revenue)
+X12_div_X17,"X12,X17",2개조합_나누기,EBIT / 총부채 (Total Liabilities)
+X12_div_X18,"X12,X18",2개조합_나누기,EBIT / 총영업비용 (Total Operating Expenses)
+X13_div_X1,"X13,X1",2개조합_나누기,매출총이익 (Gross Profit) / 유동자산 (Current Assets)
+X13_div_X2,"X13,X2",2개조합_나누기,매출총이익 (Gross Profit) / 매출원가 (Cost of Goods Sold)
+X13_div_X3,"X13,X3",2개조합_나누기,매출총이익 (Gross Profit) / 감가상각 (Depreciation & Amortization)
+X13_div_X4,"X13,X4",2개조합_나누기,매출총이익 (Gross Profit) / EBITDA
+X13_div_X5,"X13,X5",2개조합_나누기,매출총이익 (Gross Profit) / 재고자산 (Inventory)
+X13_div_X6,"X13,X6",2개조합_나누기,매출총이익 (Gross Profit) / 당기순이익 (Net Income)
+X13_div_X7,"X13,X7",2개조합_나누기,매출총이익 (Gross Profit) / 매출채권 (Total Receivables)
+X13_div_X8,"X13,X8",2개조합_나누기,매출총이익 (Gross Profit) / 시가총액 (Market Value)
+X13_div_X9,"X13,X9",2개조합_나누기,매출총이익 (Gross Profit) / 순매출액 (Net Sales)
+X13_div_X10,"X13,X10",2개조합_나누기,매출총이익 (Gross Profit) / 총자산 (Total Assets)
+X13_div_X11,"X13,X11",2개조합_나누기,매출총이익 (Gross Profit) / 장기부채 (Total Long-term Debt)
+X13_div_X12,"X13,X12",2개조합_나누기,매출총이익 (Gross Profit) / EBIT
+X13_div_X14,"X13,X14",2개조합_나누기,매출총이익 (Gross Profit) / 유동부채 (Total Current Liabilities)
+X13_div_X15,"X13,X15",2개조합_나누기,매출총이익 (Gross Profit) / 이익잉여금 (Retained Earnings)
+X13_div_X16,"X13,X16",2개조합_나누기,매출총이익 (Gross Profit) / 총매출액 (Total Revenue)
+X13_div_X17,"X13,X17",2개조합_나누기,매출총이익 (Gross Profit) / 총부채 (Total Liabilities)
+X13_div_X18,"X13,X18",2개조합_나누기,매출총이익 (Gross Profit) / 총영업비용 (Total Operating Expenses)
+X14_div_X1,"X14,X1",2개조합_나누기,유동부채 (Total Current Liabilities) / 유동자산 (Current Assets)
+X14_div_X2,"X14,X2",2개조합_나누기,유동부채 (Total Current Liabilities) / 매출원가 (Cost of Goods Sold)
+X14_div_X3,"X14,X3",2개조합_나누기,유동부채 (Total Current Liabilities) / 감가상각 (Depreciation & Amortization)
+X14_div_X4,"X14,X4",2개조합_나누기,유동부채 (Total Current Liabilities) / EBITDA
+X14_div_X5,"X14,X5",2개조합_나누기,유동부채 (Total Current Liabilities) / 재고자산 (Inventory)
+X14_div_X6,"X14,X6",2개조합_나누기,유동부채 (Total Current Liabilities) / 당기순이익 (Net Income)
+X14_div_X7,"X14,X7",2개조합_나누기,유동부채 (Total Current Liabilities) / 매출채권 (Total Receivables)
+X14_div_X8,"X14,X8",2개조합_나누기,유동부채 (Total Current Liabilities) / 시가총액 (Market Value)
+X14_div_X9,"X14,X9",2개조합_나누기,유동부채 (Total Current Liabilities) / 순매출액 (Net Sales)
+X14_div_X10,"X14,X10",2개조합_나누기,유동부채 (Total Current Liabilities) / 총자산 (Total Assets)
+X14_div_X11,"X14,X11",2개조합_나누기,유동부채 (Total Current Liabilities) / 장기부채 (Total Long-term Debt)
+X14_div_X12,"X14,X12",2개조합_나누기,유동부채 (Total Current Liabilities) / EBIT
+X14_div_X13,"X14,X13",2개조합_나누기,유동부채 (Total Current Liabilities) / 매출총이익 (Gross Profit)
+X14_div_X15,"X14,X15",2개조합_나누기,유동부채 (Total Current Liabilities) / 이익잉여금 (Retained Earnings)
+X14_div_X16,"X14,X16",2개조합_나누기,유동부채 (Total Current Liabilities) / 총매출액 (Total Revenue)
+X14_div_X17,"X14,X17",2개조합_나누기,유동부채 (Total Current Liabilities) / 총부채 (Total Liabilities)
+X14_div_X18,"X14,X18",2개조합_나누기,유동부채 (Total Current Liabilities) / 총영업비용 (Total Operating Expenses)
+X15_div_X1,"X15,X1",2개조합_나누기,이익잉여금 (Retained Earnings) / 유동자산 (Current Assets)
+X15_div_X2,"X15,X2",2개조합_나누기,이익잉여금 (Retained Earnings) / 매출원가 (Cost of Goods Sold)
+X15_div_X3,"X15,X3",2개조합_나누기,이익잉여금 (Retained Earnings) / 감가상각 (Depreciation & Amortization)
+X15_div_X4,"X15,X4",2개조합_나누기,이익잉여금 (Retained Earnings) / EBITDA
+X15_div_X5,"X15,X5",2개조합_나누기,이익잉여금 (Retained Earnings) / 재고자산 (Inventory)
+X15_div_X6,"X15,X6",2개조합_나누기,이익잉여금 (Retained Earnings) / 당기순이익 (Net Income)
+X15_div_X7,"X15,X7",2개조합_나누기,이익잉여금 (Retained Earnings) / 매출채권 (Total Receivables)
+X15_div_X8,"X15,X8",2개조합_나누기,이익잉여금 (Retained Earnings) / 시가총액 (Market Value)
+X15_div_X9,"X15,X9",2개조합_나누기,이익잉여금 (Retained Earnings) / 순매출액 (Net Sales)
+X15_div_X10,"X15,X10",2개조합_나누기,이익잉여금 (Retained Earnings) / 총자산 (Total Assets)
+X15_div_X11,"X15,X11",2개조합_나누기,이익잉여금 (Retained Earnings) / 장기부채 (Total Long-term Debt)
+X15_div_X12,"X15,X12",2개조합_나누기,이익잉여금 (Retained Earnings) / EBIT
+X15_div_X13,"X15,X13",2개조합_나누기,이익잉여금 (Retained Earnings) / 매출총이익 (Gross Profit)
+X15_div_X14,"X15,X14",2개조합_나누기,이익잉여금 (Retained Earnings) / 유동부채 (Total Current Liabilities)
+X15_div_X16,"X15,X16",2개조합_나누기,이익잉여금 (Retained Earnings) / 총매출액 (Total Revenue)
+X15_div_X17,"X15,X17",2개조합_나누기,이익잉여금 (Retained Earnings) / 총부채 (Total Liabilities)
+X15_div_X18,"X15,X18",2개조합_나누기,이익잉여금 (Retained Earnings) / 총영업비용 (Total Operating Expenses)
+X16_div_X1,"X16,X1",2개조합_나누기,총매출액 (Total Revenue) / 유동자산 (Current Assets)
+X16_div_X2,"X16,X2",2개조합_나누기,총매출액 (Total Revenue) / 매출원가 (Cost of Goods Sold)
+X16_div_X3,"X16,X3",2개조합_나누기,총매출액 (Total Revenue) / 감가상각 (Depreciation & Amortization)
+X16_div_X4,"X16,X4",2개조합_나누기,총매출액 (Total Revenue) / EBITDA
+X16_div_X5,"X16,X5",2개조합_나누기,총매출액 (Total Revenue) / 재고자산 (Inventory)
+X16_div_X6,"X16,X6",2개조합_나누기,총매출액 (Total Revenue) / 당기순이익 (Net Income)
+X16_div_X7,"X16,X7",2개조합_나누기,총매출액 (Total Revenue) / 매출채권 (Total Receivables)
+X16_div_X8,"X16,X8",2개조합_나누기,총매출액 (Total Revenue) / 시가총액 (Market Value)
+X16_div_X9,"X16,X9",2개조합_나누기,총매출액 (Total Revenue) / 순매출액 (Net Sales)
+X16_div_X10,"X16,X10",2개조합_나누기,총매출액 (Total Revenue) / 총자산 (Total Assets)
+X16_div_X11,"X16,X11",2개조합_나누기,총매출액 (Total Revenue) / 장기부채 (Total Long-term Debt)
+X16_div_X12,"X16,X12",2개조합_나누기,총매출액 (Total Revenue) / EBIT
+X16_div_X13,"X16,X13",2개조합_나누기,총매출액 (Total Revenue) / 매출총이익 (Gross Profit)
+X16_div_X14,"X16,X14",2개조합_나누기,총매출액 (Total Revenue) / 유동부채 (Total Current Liabilities)
+X16_div_X15,"X16,X15",2개조합_나누기,총매출액 (Total Revenue) / 이익잉여금 (Retained Earnings)
+X16_div_X17,"X16,X17",2개조합_나누기,총매출액 (Total Revenue) / 총부채 (Total Liabilities)
+X16_div_X18,"X16,X18",2개조합_나누기,총매출액 (Total Revenue) / 총영업비용 (Total Operating Expenses)
+X17_div_X1,"X17,X1",2개조합_나누기,총부채 (Total Liabilities) / 유동자산 (Current Assets)
+X17_div_X2,"X17,X2",2개조합_나누기,총부채 (Total Liabilities) / 매출원가 (Cost of Goods Sold)
+X17_div_X3,"X17,X3",2개조합_나누기,총부채 (Total Liabilities) / 감가상각 (Depreciation & Amortization)
+X17_div_X4,"X17,X4",2개조합_나누기,총부채 (Total Liabilities) / EBITDA
+X17_div_X5,"X17,X5",2개조합_나누기,총부채 (Total Liabilities) / 재고자산 (Inventory)
+X17_div_X6,"X17,X6",2개조합_나누기,총부채 (Total Liabilities) / 당기순이익 (Net Income)
+X17_div_X7,"X17,X7",2개조합_나누기,총부채 (Total Liabilities) / 매출채권 (Total Receivables)
+X17_div_X8,"X17,X8",2개조합_나누기,총부채 (Total Liabilities) / 시가총액 (Market Value)
+X17_div_X9,"X17,X9",2개조합_나누기,총부채 (Total Liabilities) / 순매출액 (Net Sales)
+X17_div_X10,"X17,X10",2개조합_나누기,총부채 (Total Liabilities) / 총자산 (Total Assets)
+X17_div_X11,"X17,X11",2개조합_나누기,총부채 (Total Liabilities) / 장기부채 (Total Long-term Debt)
+X17_div_X12,"X17,X12",2개조합_나누기,총부채 (Total Liabilities) / EBIT
+X17_div_X13,"X17,X13",2개조합_나누기,총부채 (Total Liabilities) / 매출총이익 (Gross Profit)
+X17_div_X14,"X17,X14",2개조합_나누기,총부채 (Total Liabilities) / 유동부채 (Total Current Liabilities)
+X17_div_X15,"X17,X15",2개조합_나누기,총부채 (Total Liabilities) / 이익잉여금 (Retained Earnings)
+X17_div_X16,"X17,X16",2개조합_나누기,총부채 (Total Liabilities) / 총매출액 (Total Revenue)
+X17_div_X18,"X17,X18",2개조합_나누기,총부채 (Total Liabilities) / 총영업비용 (Total Operating Expenses)
+X18_div_X1,"X18,X1",2개조합_나누기,총영업비용 (Total Operating Expenses) / 유동자산 (Current Assets)
+X18_div_X2,"X18,X2",2개조합_나누기,총영업비용 (Total Operating Expenses) / 매출원가 (Cost of Goods Sold)
+X18_div_X3,"X18,X3",2개조합_나누기,총영업비용 (Total Operating Expenses) / 감가상각 (Depreciation & Amortization)
+X18_div_X4,"X18,X4",2개조합_나누기,총영업비용 (Total Operating Expenses) / EBITDA
+X18_div_X5,"X18,X5",2개조합_나누기,총영업비용 (Total Operating Expenses) / 재고자산 (Inventory)
+X18_div_X6,"X18,X6",2개조합_나누기,총영업비용 (Total Operating Expenses) / 당기순이익 (Net Income)
+X18_div_X7,"X18,X7",2개조합_나누기,총영업비용 (Total Operating Expenses) / 매출채권 (Total Receivables)
+X18_div_X8,"X18,X8",2개조합_나누기,총영업비용 (Total Operating Expenses) / 시가총액 (Market Value)
+X18_div_X9,"X18,X9",2개조합_나누기,총영업비용 (Total Operating Expenses) / 순매출액 (Net Sales)
+X18_div_X10,"X18,X10",2개조합_나누기,총영업비용 (Total Operating Expenses) / 총자산 (Total Assets)
+X18_div_X11,"X18,X11",2개조합_나누기,총영업비용 (Total Operating Expenses) / 장기부채 (Total Long-term Debt)
+X18_div_X12,"X18,X12",2개조합_나누기,총영업비용 (Total Operating Expenses) / EBIT
+X18_div_X13,"X18,X13",2개조합_나누기,총영업비용 (Total Operating Expenses) / 매출총이익 (Gross Profit)
+X18_div_X14,"X18,X14",2개조합_나누기,총영업비용 (Total Operating Expenses) / 유동부채 (Total Current Liabilities)
+X18_div_X15,"X18,X15",2개조합_나누기,총영업비용 (Total Operating Expenses) / 이익잉여금 (Retained Earnings)
+X18_div_X16,"X18,X16",2개조합_나누기,총영업비용 (Total Operating Expenses) / 총매출액 (Total Revenue)
+X18_div_X17,"X18,X17",2개조합_나누기,총영업비용 (Total Operating Expenses) / 총부채 (Total Liabilities)
+X1_minus_X2,"X1,X2",2개조합_빼기,유동자산 (Current Assets) - 매출원가 (Cost of Goods Sold)
+X1_minus_X3,"X1,X3",2개조합_빼기,유동자산 (Current Assets) - 감가상각 (Depreciation & Amortization)
+X1_minus_X4,"X1,X4",2개조합_빼기,유동자산 (Current Assets) - EBITDA
+X1_minus_X5,"X1,X5",2개조합_빼기,유동자산 (Current Assets) - 재고자산 (Inventory)
+X1_minus_X6,"X1,X6",2개조합_빼기,유동자산 (Current Assets) - 당기순이익 (Net Income)
+X1_minus_X7,"X1,X7",2개조합_빼기,유동자산 (Current Assets) - 매출채권 (Total Receivables)
+X1_minus_X8,"X1,X8",2개조합_빼기,유동자산 (Current Assets) - 시가총액 (Market Value)
+X1_minus_X9,"X1,X9",2개조합_빼기,유동자산 (Current Assets) - 순매출액 (Net Sales)
+X1_minus_X10,"X1,X10",2개조합_빼기,유동자산 (Current Assets) - 총자산 (Total Assets)
+X1_minus_X11,"X1,X11",2개조합_빼기,유동자산 (Current Assets) - 장기부채 (Total Long-term Debt)
+X1_minus_X12,"X1,X12",2개조합_빼기,유동자산 (Current Assets) - EBIT
+X1_minus_X13,"X1,X13",2개조합_빼기,유동자산 (Current Assets) - 매출총이익 (Gross Profit)
+X1_minus_X14,"X1,X14",2개조합_빼기,유동자산 (Current Assets) - 유동부채 (Total Current Liabilities)
+X1_minus_X15,"X1,X15",2개조합_빼기,유동자산 (Current Assets) - 이익잉여금 (Retained Earnings)
+X1_minus_X16,"X1,X16",2개조합_빼기,유동자산 (Current Assets) - 총매출액 (Total Revenue)
+X1_minus_X17,"X1,X17",2개조합_빼기,유동자산 (Current Assets) - 총부채 (Total Liabilities)
+X1_minus_X18,"X1,X18",2개조합_빼기,유동자산 (Current Assets) - 총영업비용 (Total Operating Expenses)
+X2_minus_X3,"X2,X3",2개조합_빼기,매출원가 (Cost of Goods Sold) - 감가상각 (Depreciation & Amortization)
+X2_minus_X4,"X2,X4",2개조합_빼기,매출원가 (Cost of Goods Sold) - EBITDA
+X2_minus_X5,"X2,X5",2개조합_빼기,매출원가 (Cost of Goods Sold) - 재고자산 (Inventory)
+X2_minus_X6,"X2,X6",2개조합_빼기,매출원가 (Cost of Goods Sold) - 당기순이익 (Net Income)
+X2_minus_X7,"X2,X7",2개조합_빼기,매출원가 (Cost of Goods Sold) - 매출채권 (Total Receivables)
+X2_minus_X8,"X2,X8",2개조합_빼기,매출원가 (Cost of Goods Sold) - 시가총액 (Market Value)
+X2_minus_X9,"X2,X9",2개조합_빼기,매출원가 (Cost of Goods Sold) - 순매출액 (Net Sales)
+X2_minus_X10,"X2,X10",2개조합_빼기,매출원가 (Cost of Goods Sold) - 총자산 (Total Assets)
+X2_minus_X11,"X2,X11",2개조합_빼기,매출원가 (Cost of Goods Sold) - 장기부채 (Total Long-term Debt)
+X2_minus_X12,"X2,X12",2개조합_빼기,매출원가 (Cost of Goods Sold) - EBIT
+X2_minus_X13,"X2,X13",2개조합_빼기,매출원가 (Cost of Goods Sold) - 매출총이익 (Gross Profit)
+X2_minus_X14,"X2,X14",2개조합_빼기,매출원가 (Cost of Goods Sold) - 유동부채 (Total Current Liabilities)
+X2_minus_X15,"X2,X15",2개조합_빼기,매출원가 (Cost of Goods Sold) - 이익잉여금 (Retained Earnings)
+X2_minus_X16,"X2,X16",2개조합_빼기,매출원가 (Cost of Goods Sold) - 총매출액 (Total Revenue)
+X2_minus_X17,"X2,X17",2개조합_빼기,매출원가 (Cost of Goods Sold) - 총부채 (Total Liabilities)
+X2_minus_X18,"X2,X18",2개조합_빼기,매출원가 (Cost of Goods Sold) - 총영업비용 (Total Operating Expenses)
+X3_minus_X4,"X3,X4",2개조합_빼기,감가상각 (Depreciation & Amortization) - EBITDA
+X3_minus_X5,"X3,X5",2개조합_빼기,감가상각 (Depreciation & Amortization) - 재고자산 (Inventory)
+X3_minus_X6,"X3,X6",2개조합_빼기,감가상각 (Depreciation & Amortization) - 당기순이익 (Net Income)
+X3_minus_X7,"X3,X7",2개조합_빼기,감가상각 (Depreciation & Amortization) - 매출채권 (Total Receivables)
+X3_minus_X8,"X3,X8",2개조합_빼기,감가상각 (Depreciation & Amortization) - 시가총액 (Market Value)
+X3_minus_X9,"X3,X9",2개조합_빼기,감가상각 (Depreciation & Amortization) - 순매출액 (Net Sales)
+X3_minus_X10,"X3,X10",2개조합_빼기,감가상각 (Depreciation & Amortization) - 총자산 (Total Assets)
+X3_minus_X11,"X3,X11",2개조합_빼기,감가상각 (Depreciation & Amortization) - 장기부채 (Total Long-term Debt)
+X3_minus_X12,"X3,X12",2개조합_빼기,감가상각 (Depreciation & Amortization) - EBIT
+X3_minus_X13,"X3,X13",2개조합_빼기,감가상각 (Depreciation & Amortization) - 매출총이익 (Gross Profit)
+X3_minus_X14,"X3,X14",2개조합_빼기,감가상각 (Depreciation & Amortization) - 유동부채 (Total Current Liabilities)
+X3_minus_X15,"X3,X15",2개조합_빼기,감가상각 (Depreciation & Amortization) - 이익잉여금 (Retained Earnings)
+X3_minus_X16,"X3,X16",2개조합_빼기,감가상각 (Depreciation & Amortization) - 총매출액 (Total Revenue)
+X3_minus_X17,"X3,X17",2개조합_빼기,감가상각 (Depreciation & Amortization) - 총부채 (Total Liabilities)
+X3_minus_X18,"X3,X18",2개조합_빼기,감가상각 (Depreciation & Amortization) - 총영업비용 (Total Operating Expenses)
+X4_minus_X5,"X4,X5",2개조합_빼기,EBITDA - 재고자산 (Inventory)
+X4_minus_X6,"X4,X6",2개조합_빼기,EBITDA - 당기순이익 (Net Income)
+X4_minus_X7,"X4,X7",2개조합_빼기,EBITDA - 매출채권 (Total Receivables)
+X4_minus_X8,"X4,X8",2개조합_빼기,EBITDA - 시가총액 (Market Value)
+X4_minus_X9,"X4,X9",2개조합_빼기,EBITDA - 순매출액 (Net Sales)
+X4_minus_X10,"X4,X10",2개조합_빼기,EBITDA - 총자산 (Total Assets)
+X4_minus_X11,"X4,X11",2개조합_빼기,EBITDA - 장기부채 (Total Long-term Debt)
+X4_minus_X12,"X4,X12",2개조합_빼기,EBITDA - EBIT
+X4_minus_X13,"X4,X13",2개조합_빼기,EBITDA - 매출총이익 (Gross Profit)
+X4_minus_X14,"X4,X14",2개조합_빼기,EBITDA - 유동부채 (Total Current Liabilities)
+X4_minus_X15,"X4,X15",2개조합_빼기,EBITDA - 이익잉여금 (Retained Earnings)
+X4_minus_X16,"X4,X16",2개조합_빼기,EBITDA - 총매출액 (Total Revenue)
+X4_minus_X17,"X4,X17",2개조합_빼기,EBITDA - 총부채 (Total Liabilities)
+X4_minus_X18,"X4,X18",2개조합_빼기,EBITDA - 총영업비용 (Total Operating Expenses)
+X5_minus_X6,"X5,X6",2개조합_빼기,재고자산 (Inventory) - 당기순이익 (Net Income)
+X5_minus_X7,"X5,X7",2개조합_빼기,재고자산 (Inventory) - 매출채권 (Total Receivables)
+X5_minus_X8,"X5,X8",2개조합_빼기,재고자산 (Inventory) - 시가총액 (Market Value)
+X5_minus_X9,"X5,X9",2개조합_빼기,재고자산 (Inventory) - 순매출액 (Net Sales)
+X5_minus_X10,"X5,X10",2개조합_빼기,재고자산 (Inventory) - 총자산 (Total Assets)
+X5_minus_X11,"X5,X11",2개조합_빼기,재고자산 (Inventory) - 장기부채 (Total Long-term Debt)
+X5_minus_X12,"X5,X12",2개조합_빼기,재고자산 (Inventory) - EBIT
+X5_minus_X13,"X5,X13",2개조합_빼기,재고자산 (Inventory) - 매출총이익 (Gross Profit)
+X5_minus_X14,"X5,X14",2개조합_빼기,재고자산 (Inventory) - 유동부채 (Total Current Liabilities)
+X5_minus_X15,"X5,X15",2개조합_빼기,재고자산 (Inventory) - 이익잉여금 (Retained Earnings)
+X5_minus_X16,"X5,X16",2개조합_빼기,재고자산 (Inventory) - 총매출액 (Total Revenue)
+X5_minus_X17,"X5,X17",2개조합_빼기,재고자산 (Inventory) - 총부채 (Total Liabilities)
+X5_minus_X18,"X5,X18",2개조합_빼기,재고자산 (Inventory) - 총영업비용 (Total Operating Expenses)
+X6_minus_X7,"X6,X7",2개조합_빼기,당기순이익 (Net Income) - 매출채권 (Total Receivables)
+X6_minus_X8,"X6,X8",2개조합_빼기,당기순이익 (Net Income) - 시가총액 (Market Value)
+X6_minus_X9,"X6,X9",2개조합_빼기,당기순이익 (Net Income) - 순매출액 (Net Sales)
+X6_minus_X10,"X6,X10",2개조합_빼기,당기순이익 (Net Income) - 총자산 (Total Assets)
+X6_minus_X11,"X6,X11",2개조합_빼기,당기순이익 (Net Income) - 장기부채 (Total Long-term Debt)
+X6_minus_X12,"X6,X12",2개조합_빼기,당기순이익 (Net Income) - EBIT
+X6_minus_X13,"X6,X13",2개조합_빼기,당기순이익 (Net Income) - 매출총이익 (Gross Profit)
+X6_minus_X14,"X6,X14",2개조합_빼기,당기순이익 (Net Income) - 유동부채 (Total Current Liabilities)
+X6_minus_X15,"X6,X15",2개조합_빼기,당기순이익 (Net Income) - 이익잉여금 (Retained Earnings)
+X6_minus_X16,"X6,X16",2개조합_빼기,당기순이익 (Net Income) - 총매출액 (Total Revenue)
+X6_minus_X17,"X6,X17",2개조합_빼기,당기순이익 (Net Income) - 총부채 (Total Liabilities)
+X6_minus_X18,"X6,X18",2개조합_빼기,당기순이익 (Net Income) - 총영업비용 (Total Operating Expenses)
+X7_minus_X8,"X7,X8",2개조합_빼기,매출채권 (Total Receivables) - 시가총액 (Market Value)
+X7_minus_X9,"X7,X9",2개조합_빼기,매출채권 (Total Receivables) - 순매출액 (Net Sales)
+X7_minus_X10,"X7,X10",2개조합_빼기,매출채권 (Total Receivables) - 총자산 (Total Assets)
+X7_minus_X11,"X7,X11",2개조합_빼기,매출채권 (Total Receivables) - 장기부채 (Total Long-term Debt)
+X7_minus_X12,"X7,X12",2개조합_빼기,매출채권 (Total Receivables) - EBIT
+X7_minus_X13,"X7,X13",2개조합_빼기,매출채권 (Total Receivables) - 매출총이익 (Gross Profit)
+X7_minus_X14,"X7,X14",2개조합_빼기,매출채권 (Total Receivables) - 유동부채 (Total Current Liabilities)
+X7_minus_X15,"X7,X15",2개조합_빼기,매출채권 (Total Receivables) - 이익잉여금 (Retained Earnings)
+X7_minus_X16,"X7,X16",2개조합_빼기,매출채권 (Total Receivables) - 총매출액 (Total Revenue)
+X7_minus_X17,"X7,X17",2개조합_빼기,매출채권 (Total Receivables) - 총부채 (Total Liabilities)
+X7_minus_X18,"X7,X18",2개조합_빼기,매출채권 (Total Receivables) - 총영업비용 (Total Operating Expenses)
+X8_minus_X9,"X8,X9",2개조합_빼기,시가총액 (Market Value) - 순매출액 (Net Sales)
+X8_minus_X10,"X8,X10",2개조합_빼기,시가총액 (Market Value) - 총자산 (Total Assets)
+X8_minus_X11,"X8,X11",2개조합_빼기,시가총액 (Market Value) - 장기부채 (Total Long-term Debt)
+X8_minus_X12,"X8,X12",2개조합_빼기,시가총액 (Market Value) - EBIT
+X8_minus_X13,"X8,X13",2개조합_빼기,시가총액 (Market Value) - 매출총이익 (Gross Profit)
+X8_minus_X14,"X8,X14",2개조합_빼기,시가총액 (Market Value) - 유동부채 (Total Current Liabilities)
+X8_minus_X15,"X8,X15",2개조합_빼기,시가총액 (Market Value) - 이익잉여금 (Retained Earnings)
+X8_minus_X16,"X8,X16",2개조합_빼기,시가총액 (Market Value) - 총매출액 (Total Revenue)
+X8_minus_X17,"X8,X17",2개조합_빼기,시가총액 (Market Value) - 총부채 (Total Liabilities)
+X8_minus_X18,"X8,X18",2개조합_빼기,시가총액 (Market Value) - 총영업비용 (Total Operating Expenses)
+X9_minus_X10,"X9,X10",2개조합_빼기,순매출액 (Net Sales) - 총자산 (Total Assets)
+X9_minus_X11,"X9,X11",2개조합_빼기,순매출액 (Net Sales) - 장기부채 (Total Long-term Debt)
+X9_minus_X12,"X9,X12",2개조합_빼기,순매출액 (Net Sales) - EBIT
+X9_minus_X13,"X9,X13",2개조합_빼기,순매출액 (Net Sales) - 매출총이익 (Gross Profit)
+X9_minus_X14,"X9,X14",2개조합_빼기,순매출액 (Net Sales) - 유동부채 (Total Current Liabilities)
+X9_minus_X15,"X9,X15",2개조합_빼기,순매출액 (Net Sales) - 이익잉여금 (Retained Earnings)
+X9_minus_X16,"X9,X16",2개조합_빼기,순매출액 (Net Sales) - 총매출액 (Total Revenue)
+X9_minus_X17,"X9,X17",2개조합_빼기,순매출액 (Net Sales) - 총부채 (Total Liabilities)
+X9_minus_X18,"X9,X18",2개조합_빼기,순매출액 (Net Sales) - 총영업비용 (Total Operating Expenses)
+X10_minus_X11,"X10,X11",2개조합_빼기,총자산 (Total Assets) - 장기부채 (Total Long-term Debt)
+X10_minus_X12,"X10,X12",2개조합_빼기,총자산 (Total Assets) - EBIT
+X10_minus_X13,"X10,X13",2개조합_빼기,총자산 (Total Assets) - 매출총이익 (Gross Profit)
+X10_minus_X14,"X10,X14",2개조합_빼기,총자산 (Total Assets) - 유동부채 (Total Current Liabilities)
+X10_minus_X15,"X10,X15",2개조합_빼기,총자산 (Total Assets) - 이익잉여금 (Retained Earnings)
+X10_minus_X16,"X10,X16",2개조합_빼기,총자산 (Total Assets) - 총매출액 (Total Revenue)
+X10_minus_X17,"X10,X17",2개조합_빼기,총자산 (Total Assets) - 총부채 (Total Liabilities)
+X10_minus_X18,"X10,X18",2개조합_빼기,총자산 (Total Assets) - 총영업비용 (Total Operating Expenses)
+X11_minus_X12,"X11,X12",2개조합_빼기,장기부채 (Total Long-term Debt) - EBIT
+X11_minus_X13,"X11,X13",2개조합_빼기,장기부채 (Total Long-term Debt) - 매출총이익 (Gross Profit)
+X11_minus_X14,"X11,X14",2개조합_빼기,장기부채 (Total Long-term Debt) - 유동부채 (Total Current Liabilities)
+X11_minus_X15,"X11,X15",2개조합_빼기,장기부채 (Total Long-term Debt) - 이익잉여금 (Retained Earnings)
+X11_minus_X16,"X11,X16",2개조합_빼기,장기부채 (Total Long-term Debt) - 총매출액 (Total Revenue)
+X11_minus_X17,"X11,X17",2개조합_빼기,장기부채 (Total Long-term Debt) - 총부채 (Total Liabilities)
+X11_minus_X18,"X11,X18",2개조합_빼기,장기부채 (Total Long-term Debt) - 총영업비용 (Total Operating Expenses)
+X12_minus_X13,"X12,X13",2개조합_빼기,EBIT - 매출총이익 (Gross Profit)
+X12_minus_X14,"X12,X14",2개조합_빼기,EBIT - 유동부채 (Total Current Liabilities)
+X12_minus_X15,"X12,X15",2개조합_빼기,EBIT - 이익잉여금 (Retained Earnings)
+X12_minus_X16,"X12,X16",2개조합_빼기,EBIT - 총매출액 (Total Revenue)
+X12_minus_X17,"X12,X17",2개조합_빼기,EBIT - 총부채 (Total Liabilities)
+X12_minus_X18,"X12,X18",2개조합_빼기,EBIT - 총영업비용 (Total Operating Expenses)
+X13_minus_X14,"X13,X14",2개조합_빼기,매출총이익 (Gross Profit) - 유동부채 (Total Current Liabilities)
+X13_minus_X15,"X13,X15",2개조합_빼기,매출총이익 (Gross Profit) - 이익잉여금 (Retained Earnings)
+X13_minus_X16,"X13,X16",2개조합_빼기,매출총이익 (Gross Profit) - 총매출액 (Total Revenue)
+X13_minus_X17,"X13,X17",2개조합_빼기,매출총이익 (Gross Profit) - 총부채 (Total Liabilities)
+X13_minus_X18,"X13,X18",2개조합_빼기,매출총이익 (Gross Profit) - 총영업비용 (Total Operating Expenses)
+X14_minus_X15,"X14,X15",2개조합_빼기,유동부채 (Total Current Liabilities) - 이익잉여금 (Retained Earnings)
+X14_minus_X16,"X14,X16",2개조합_빼기,유동부채 (Total Current Liabilities) - 총매출액 (Total Revenue)
+X14_minus_X17,"X14,X17",2개조합_빼기,유동부채 (Total Current Liabilities) - 총부채 (Total Liabilities)
+X14_minus_X18,"X14,X18",2개조합_빼기,유동부채 (Total Current Liabilities) - 총영업비용 (Total Operating Expenses)
+X15_minus_X16,"X15,X16",2개조합_빼기,이익잉여금 (Retained Earnings) - 총매출액 (Total Revenue)
+X15_minus_X17,"X15,X17",2개조합_빼기,이익잉여금 (Retained Earnings) - 총부채 (Total Liabilities)
+X15_minus_X18,"X15,X18",2개조합_빼기,이익잉여금 (Retained Earnings) - 총영업비용 (Total Operating Expenses)
+X16_minus_X17,"X16,X17",2개조합_빼기,총매출액 (Total Revenue) - 총부채 (Total Liabilities)
+X16_minus_X18,"X16,X18",2개조합_빼기,총매출액 (Total Revenue) - 총영업비용 (Total Operating Expenses)
+X17_minus_X18,"X17,X18",2개조합_빼기,총부채 (Total Liabilities) - 총영업비용 (Total Operating Expenses)
+combo_cashgen_assets,multiple,3개조합_재무비율,현금창출력 = (순이익+감가상각) / 총자산
+combo_ebitda_debt,multiple,3개조합_재무비율,EBITDA 부채상환능력 = EBITDA / (장기부채+유동부채)
+combo_nwc_assets,multiple,3개조합_재무비율,순운전자본비율 = (유동자산-유동부채) / 총자산
+combo_ni_grossprofit,multiple,3개조합_재무비율,순이익/매출총이익 비율
+combo_gp_ebit,multiple,3개조합_재무비율,영업레버리지 = 매출총이익 / EBIT
+combo_sales_netassets,multiple,3개조합_재무비율,조정자산회전율 = 순매출 / (총자산-유동부채)
+combo_ebit_stdebt,multiple,3개조합_재무비율,이자보상배율_대안 = EBIT / 단기부채
+combo_cogs_inventory,multiple,3개조합_재무비율,재고+채권 회전율 = 매출원가 / (재고+매출채권)
+combo_ocf_debt,multiple,3개조합_재무비율,영업현금흐름비율 = 순이익 / 총부채
+combo_roc,multiple,3개조합_재무비율,총자본이익률 = 순이익 / (총자산-총부채)
+combo_receivable_turn,multiple,3개조합_재무비율,매출채권+재고 회전율 = 순매출 / (매출채권+재고)
+combo_net_debt_ratio,multiple,3개조합_재무비율,순부채비율 = (총부채-유동자산) / 총자산
+combo_da_assets,multiple,3개조합_재무비율,감가상각비율 = 감가상각 / 총자산
+combo_wc_turnover,multiple,3개조합_재무비율,운전자본회전율 = 순매출 / (유동자산-유동부채)
+combo_altman_nwc,multiple,3개조합_Altman,Altman Z1 = 순운전자본 / 총자산
+combo_altman_re,multiple,3개조합_Altman,Altman Z2 = 이익잉여금 / 총자산
+combo_altman_ebit,multiple,3개조합_Altman,Altman Z3 = EBIT / 총자산
+combo_altman_mktcap,multiple,3개조합_Altman,Altman Z4 = 시가총액 / 총부채
+combo_altman_sales,multiple,3개조합_Altman,Altman Z5 = 순매출 / 총자산
+combo_dupont_roa_turn,multiple,3개조합_듀퐁,듀퐁: ROA × 자산회전율
+combo_dupont_ebit_turn,multiple,3개조합_듀퐁,듀퐁: EBIT마진 × 자산회전율
+combo_dupont_lev_margin,multiple,3개조합_듀퐁,듀퐁: 부채비율 × 순이익률
+combo_dupont_liq_margin,multiple,3개조합_듀퐁,듀퐁: 유동비율 × 순이익률
