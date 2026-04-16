@@ -1,19 +1,16 @@
 # 🛡️ Two-Tier Master Credit Scoring System (70:30)
 
-본 프로젝트는 상장 기업의 부도 예측력을 극대화하기 위해 **내부 재무지표(70%)**와 **외부 비재무 지표(30%)**를 결합한 이원화된 신용평가 모델 시스템입니다. 국내 신용평가사의 방법론(NICE 등)과 학술적 가이드라인(김종윤, 2019)을 엄격히 준수하여 설계되었습니다.
+본 프로젝트는 상장 기업의 부도 예측력을 극대화하기 위해 **내부 재무지표(70%)**와 **외부 비재무 지표(30%)**중 재무모형 신용평가 모델 시스템을 재현한 프로젝트입니다. 국내 신용평가사의 방법론(NICE 등)과 학술적 가이드라인(김종윤, 2019)을 엄격히 준수하여 설계되었습니다.
 
 ---
 
 ## 🏗️ 1. 프로젝트 아키텍처 및 철학
 
-이 시스템은 두 개의 개별 모델이 독립적으로 작동한 뒤, 최종 단계에서 가중 결합되는 **Ensemble 모델** 방식입니다.
 *   **Financial Model (70%)**: 기업의 장부상 실적(수수성, 활동성, 안정성 등)을 896개의 비율로 분석.
-*   **Non-Financial Model (30%)**: 시장 내 상대적 위상(Market Position) 및 자본 조달력(Funding Power)을 139개의 대용 지표(Proxy)로 분석.
-*   **Twin Modeling**: 두 모델은 서로 다른 데이터 소스를 사용하지만, 통계적 처리 공정(DNA)은 100% 동일하게 설계되어 결합 시 왜곡이 없습니다.
 
 ---
 
-## 📈 2. 단계별 상세 공정 (Sequential Workflow)
+## 📈 2. 단계별 상세 과정 (Sequential Workflow)
 
 ### [Phase 1] Financial Model (`CSS_Financial.ipynb`)
 재무 비율 기반의 내부 건전성 측정 모델 개발 과정입니다.
@@ -28,15 +25,6 @@
 8.  **Stepwise Selection (Cell 12)**: AIC(Akaike Information Criterion) 최소화 기준 전진/후진 선택법으로 최종 14개 변수 확정.
 9.  **Scorecard & Validation (Cell 13-15)**: **Zero-Anchoring** 방식의 스코어카드 산출 및 KS, AR, PSI를 통한 모델 성능/안정성 검증.
 
-### [Phase 2] Non-Financial Model (`CSS_NonFinancial.ipynb`)
-시장 지배력 및 자산 조달력 기반의 외부 지표 모델 개발 과정입니다.
-
-1.  **Proxy Generation (Cell 1)**: 절대 금액이 아닌 **순위(Rank), 백분위(Percentile), 격차(Gap)** 중심의 139개 비재무 대용 변수 생성.
-2.  **Mega-Audit (Cell 2)**: 재무 후보군(896종)과 비재무 후보군(139종) 간의 **글로벌 상관관계 Audit**. Corr > 0.8인 변수 전무함을 확인하여 통계적 독립성 입증.
-3.  **Twin-DNA Modeling (Cell 3-11)**: 재무 모델과 동일한 8단계 공정(Split → Fine → Coarse → Recoding → Filter → VIF → Stepwise) 수행.
-4.  **Variable Interpretation (Cell 10-Report)**: 선발된 12개 변수에 대해 '시장 신뢰도', '자본시장 위상', '경영 지속성' 등의 비재무적 질적 의미 부여 (논문 근거 강화).
-5.  **Non-Financial Scorecard (Cell 12-13)**: 비재무 전용 0~1000점 평점표 산출.
-6.  **Validation & Export (Cell 14-15)**: 비재무 모델 단독 성능 검증 및 재무 모델과 동일한 7개 파일 구성으로 **결과물 아카이빙(`.pkl`, `.csv`, `.json`)**.
 
 ---
 
@@ -45,7 +33,7 @@
 두 모델의 결과물은 각각 독립된 폴더에 동일한 파일 이름으로 저장됩니다.
 
 *   `CSS_Financial_results/` & `CSS_NonFinancial_results/`
-    *   `feature_dictionary.csv`: 전체 후보 변수 (896 / 139) 명단
+    *   `feature_dictionary.csv`: 전체 후보 변수 (896) 명단
     *   `final_vars.json`: 최종 선발 변수 리스트
     *   `final_logit_model.pkl`: 학습 완료된 모델 직렬화 파일
     *   `model_params.json`: 상수항 및 스케일링(Factor, Offset) 파라미터
@@ -65,11 +53,7 @@
 
 
 
-
-
-# 수정할 것
-- Nonfinancial 과정이 약간 다르게 진행되었음. 빠진 작업이 있나 확인해봐야 함. 
-
 # 앞으로 할 것
-- 7:3 가중치 적용해서 비교할 것. (한번에 돌리는 경우 vs 그냥 돌리는 경우) 
+- 비재무 모형의 변수를 증강 등의 방법으로 생성해 7:3 가중치 적용해서 비교할 것. 
 - 7을 어떻게 나눌지, 3을 어떻게 나눌지 그 최적 비율을 찾아야 함.
+- **Dart API 활용으로 Airflow로 모델의 적합성을 자동으로 검증 가능하게 신규 데이터로 학습시킬 것. (실제 사용 가능성과 연결 및 모니터링 가능성 확인)**
